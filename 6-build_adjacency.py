@@ -40,8 +40,8 @@ import seaborn as sns
 # ══════════════════════════════════════════════════════════════
 # Configuration
 # ══════════════════════════════════════════════════════════════
-PROJECT_DIR = "./Project_Data2"
-QC_DIR = "./QC_Adjacency2"
+PROJECT_DIR = "./Project_Data"
+QC_DIR = "./QC_Adjacency"
 N_ROIS = 100          # Number of parcels in the Schaefer Atlas
 MIN_VOXELS = 10       # Minimum voxels required for a valid ROI
 
