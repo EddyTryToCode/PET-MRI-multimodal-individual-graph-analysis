@@ -30,9 +30,9 @@ import dicom2nifti
 # ──────────────────────────────────────────────
 # Configuration
 # ──────────────────────────────────────────────
-CSV_PATH = "./addition.csv"
-RAW_DATA_DIR = "./addition"          # Root of the unzipped ADNI download
-OUTPUT_DIR = "./Project_Data2"
+CSV_PATH = "./data_balanced.csv"
+RAW_DATA_DIR = "./data"          # Root of the unzipped ADNI download
+OUTPUT_DIR = "./Project_Data"
 
 # ──────────────────────────────────────────────
 # Step 1 – Build a lookup: img_id -> folder path
