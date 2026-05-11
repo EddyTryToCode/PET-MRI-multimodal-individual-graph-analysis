@@ -35,8 +35,8 @@ from nilearn import plotting
 # ══════════════════════════════════════════════════
 # Configuration
 # ══════════════════════════════════════════════════
-PROJECT_DIR = "./Project_Data2"
-OUTPUT_DIR = "./QC_Snapshots2"
+PROJECT_DIR = "./Project_Data"
+OUTPUT_DIR = "./QC_Snapshots"
 
 
 def generate_qc_snapshot(mri_path: str,
