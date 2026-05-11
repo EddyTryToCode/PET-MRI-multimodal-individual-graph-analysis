@@ -43,9 +43,9 @@ from nilearn import plotting
 # ══════════════════════════════════════════════════════════════
 # Configuration — EDIT THESE PATHS
 # ══════════════════════════════════════════════════════════════
-PROJECT_DIR = "./Project_Data2"
+PROJECT_DIR = "./Project_Data"
 ATLAS_PATH = "./Atlas/schaefer_2018/Schaefer2018_100Parcels_7Networks_order_FSLMNI152_2mm.nii.gz"
-QC_DIR = "./QC_Parcellation2"
+QC_DIR = "./QC_Parcellation"
 
 
 # ══════════════════════════════════════════════════════════════
