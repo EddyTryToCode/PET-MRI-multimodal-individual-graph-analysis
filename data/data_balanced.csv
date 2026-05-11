@@ -1,0 +1,741 @@
+Image Data ID,Subject,Group,Sex,Age,Visit,Modality,Description,Type,Acq Date,Format,Downloaded
+I224368,941_S_1195,CN,M,81.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/09/2011,DCM,Yes
+I225433,941_S_1195,CN,M,81.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,3/15/2011,NiFTI,Yes
+I254778,153_S_4151,CN,M,72.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,8/18/2011,NiFTI,Yes
+I254850,153_S_4151,CN,M,72.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/31/2011,DCM,Yes
+I250661,153_S_4139,CN,F,71.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,8/11/2011,NiFTI,Yes
+I254842,153_S_4139,CN,F,71.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/26/2011,DCM,Yes
+I248631,153_S_4125,CN,F,76.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,7/20/2011,NiFTI,Yes
+I249525,153_S_4125,CN,F,76.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/05/2011,DCM,Yes
+I228168,141_S_1378,MCI,F,66.0,m36,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/22/2010,DCM,Yes
+I297904,141_S_1378,MCI,F,66.0,m36,MRI,MT1; GradWarp; N3m,Pre-processed,10/28/2010,NiFTI,Yes
+I286200,141_S_1052,MCI,F,74.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/30/2011,DCM,Yes
+I297900,141_S_1052,MCI,F,74.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,12/10/2011,NiFTI,Yes
+I219111,141_S_0767,CN,F,77.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/20/2010,NiFTI,Yes
+I229527,141_S_0767,CN,F,77.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/20/2010,DCM,Yes
+I300256,137_S_4672,AD,M,67.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,4/16/2012,NiFTI,Yes
+I303342,137_S_4672,AD,M,67.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/30/2012,DCM,Yes
+I293668,137_S_4520,CN,M,68.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/26/2012,DCM,Yes
+I296355,137_S_4520,CN,M,68.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,3/01/2012,NiFTI,Yes
+I261076,137_S_4258,AD,M,76.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,10/11/2011,NiFTI,Yes
+I262036,137_S_4258,AD,M,76.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/17/2011,DCM,Yes
+I258693,137_S_4211,AD,F,81.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,9/21/2011,NiFTI,Yes
+I260659,137_S_4211,AD,F,81.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/04/2011,DCM,Yes
+I97270,137_S_1414,MCI,M,75.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/10/2008,DCM,Yes
+I99141,137_S_1414,MCI,M,75.0,m06,MRI,MPR-R; GradWarp; N3; Scaled,Pre-processed,2/26/2008,NiFTI,Yes
+I192953,137_S_0800,MCI,M,78.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/14/2010,DCM,Yes
+I218006,137_S_0800,MCI,M,78.0,m48,MRI,MPR; GradWarp; N3; Scaled,Pre-processed,9/03/2010,NiFTI,Yes
+I192949,137_S_0722,MCI,M,74.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/13/2010,DCM,Yes
+I218249,137_S_0722,MCI,M,75.0,m48,MRI,MPR; GradWarp; N3; Scaled,Pre-processed,11/19/2010,NiFTI,Yes
+I75128,137_S_0669,MCI,M,65.0,m12,MRI,MPR-R; GradWarp; N3; Scaled,Pre-processed,8/27/2007,NiFTI,Yes
+I77248,137_S_0669,MCI,M,65.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/24/2007,DCM,Yes
+I207888,136_S_0873,MCI,F,82.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/02/2010,DCM,Yes
+I217978,136_S_0873,MCI,F,82.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/25/2010,NiFTI,Yes
+I239755,136_S_0107,MCI,F,66.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/08/2011,DCM,Yes
+I274555,136_S_0107,MCI,F,66.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,6/08/2011,NiFTI,Yes
+I369987,135_S_5113,CN,M,65.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/15/2013,DCM,Yes
+I377193,135_S_5113,CN,M,65.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,4/03/2013,NiFTI,Yes
+I305621,135_S_4723,MCI,F,69.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,5/16/2012,NiFTI,Yes
+I308822,135_S_4723,MCI,F,70.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/07/2012,DCM,Yes
+I267753,135_S_4356,MCI,M,68.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,11/10/2011,NiFTI,Yes
+I270733,135_S_4356,MCI,M,68.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/05/2011,DCM,Yes
+I377462,130_S_5175,CN,F,80.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/18/2013,DCM,Yes
+I414453,130_S_5175,CN,F,80.0,v02,MRI,MT1; N3m,Pre-processed,5/24/2013,NiFTI,Yes
+I362849,130_S_5059,AD,M,72.0,v02,MRI,MT1; N3m,Pre-processed,2/06/2013,NiFTI,Yes
+I365179,130_S_5059,AD,M,72.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/01/2013,DCM,Yes
+I351549,130_S_5006,AD,F,68.0,v02,MRI,MT1; N3m,Pre-processed,11/14/2012,NiFTI,Yes
+I354791,130_S_5006,AD,F,68.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/05/2012,DCM,Yes
+I347952,130_S_4982,AD,F,58.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/30/2012,DCM,Yes
+I349785,130_S_4982,AD,F,58.0,v02,MRI,MT1; N3m,Pre-processed,10/23/2012,NiFTI,Yes
+I296409,130_S_4641,AD,F,74.0,v02,MRI,MT1; N3m,Pre-processed,4/04/2012,NiFTI,Yes
+I301234,130_S_4641,AD,F,74.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/20/2012,DCM,Yes
+I266579,130_S_0886,CN,F,76.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/26/2011,DCM,Yes
+I297860,130_S_0886,CN,F,77.0,v06,MRI,MT1; N3m,Pre-processed,11/17/2011,NiFTI,Yes
+I233352,130_S_0289,MCI,M,73.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/22/2011,DCM,Yes
+I297918,130_S_0289,MCI,M,73.0,m60,MRI,MT1; N3m,Pre-processed,4/22/2011,NiFTI,Yes
+I233347,130_S_0285,MCI,M,71.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/01/2011,DCM,Yes
+I297916,130_S_0285,MCI,M,71.0,m60,MRI,MT1; N3m,Pre-processed,4/01/2011,NiFTI,Yes
+I225793,130_S_0232,CN,M,83.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/29/2011,DCM,Yes
+I297914,130_S_0232,CN,M,83.0,m60,MRI,MT1; N3m,Pre-processed,3/29/2011,NiFTI,Yes
+I272813,129_S_4422,CN,F,71.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,12/15/2011,NiFTI,Yes
+I275742,129_S_4422,CN,F,71.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/27/2011,DCM,Yes
+I270065,129_S_4396,CN,F,78.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,12/01/2011,NiFTI,Yes
+I272175,129_S_4396,CN,F,79.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/13/2011,DCM,Yes
+I270041,129_S_4371,CN,M,68.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,11/23/2011,NiFTI,Yes
+I270639,129_S_4371,CN,M,68.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/06/2011,DCM,Yes
+I243257,129_S_1246,MCI,M,77.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/27/2011,DCM,Yes
+I299333,129_S_1246,MCI,M,77.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,4/27/2011,NiFTI,Yes
+I315410,128_S_4607,CN,M,57.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/28/2012,DCM,Yes
+I322924,128_S_4607,CN,M,57.0,v04,MRI,MT1; GradWarp; N3m,Pre-processed,6/28/2012,NiFTI,Yes
+I192723,128_S_2002,MCI,M,65.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/23/2010,DCM,Yes
+I223497,128_S_2002,MCI,M,65.0,scmri,MRI,MT1; GradWarp; N3m,Pre-processed,6/17/2010,NiFTI,Yes
+I197190,128_S_0229,CN,F,79.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/12/2010,DCM,Yes
+I414374,128_S_0229,CN,F,79.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,10/25/2010,NiFTI,Yes
+I220242,128_S_0227,MCI,F,85.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/31/2011,DCM,Yes
+I299240,128_S_0227,MCI,F,85.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,1/25/2011,NiFTI,Yes
+I206397,128_S_0200,MCI,M,66.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/02/2010,DCM,Yes
+I280569,128_S_0200,MCI,M,66.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,11/12/2010,NiFTI,Yes
+I363644,127_S_5095,AD,M,66.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/15/2013,DCM,Yes
+I366695,127_S_5095,AD,M,66.0,v02,MRI,"Spatially Normalized, Masked and N3 corrected T1 image",Pre-processed,2/27/2013,NiFTI,Yes
+I358086,127_S_5067,AD,M,81.0,v02,MRI,MT1; N3m,Pre-processed,2/04/2013,NiFTI,Yes
+I360038,127_S_5067,AD,M,81.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/12/2013,DCM,Yes
+I291900,127_S_4604,CN,M,65.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,3/21/2012,NiFTI,Yes
+I303318,127_S_4604,CN,M,65.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/29/2012,DCM,Yes
+I73793,127_S_1427,MCI,F,70.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/14/2007,DCM,Yes
+I91126,127_S_1427,MCI,F,70.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,8/20/2007,NiFTI,Yes
+I97255,127_S_1419,MCI,M,79.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/29/2008,DCM,Yes
+I101933,127_S_1419,MCI,M,79.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,3/05/2008,NiFTI,Yes
+I129551,127_S_1032,MCI,M,87.0,m24,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/05/2008,DCM,Yes
+I134931,127_S_1032,MCI,M,87.0,m24,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/23/2008,NiFTI,Yes
+I129646,127_S_0925,MCI,M,77.0,m24,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/21/2008,NiFTI,Yes
+I129532,127_S_0925,MCI,M,77.0,m24,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/05/2008,DCM,Yes
+I124297,127_S_0754,AD,F,70.0,m24,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/03/2008,NiFTI,Yes
+I124603,127_S_0754,AD,F,70.0,m24,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/03/2008,DCM,Yes
+I145723,127_S_0394,MCI,F,87.0,m36,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/09/2009,DCM,Yes
+I160164,127_S_0394,MCI,F,87.0,m36,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,6/11/2009,NiFTI,Yes
+I235203,127_S_0260,CN,F,84.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/13/2011,DCM,Yes
+I274710,127_S_0260,CN,F,84.0,m60,MRI,MT1; N3m,Pre-processed,5/13/2011,NiFTI,Yes
+I102516,127_S_0259,CN,M,73.0,m24,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,3/27/2008,NiFTI,Yes
+I102904,127_S_0259,CN,M,73.0,m24,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/11/2008,DCM,Yes
+I89815,127_S_0112,MCI,M,73.0,m24,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/01/2008,DCM,Yes
+I91972,127_S_0112,MCI,M,73.0,m24,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,1/29/2008,NiFTI,Yes
+I304715,126_S_4686,AD,M,72.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/09/2012,DCM,Yes
+I305417,126_S_4686,AD,M,72.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,4/27/2012,NiFTI,Yes
+I91967,126_S_1221,AD,M,72.0,m12,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,1/28/2008,NiFTI,Yes
+I92468,126_S_1221,AD,M,72.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/19/2008,DCM,Yes
+I285083,126_S_1187,MCI,M,82.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/13/2012,DCM,Yes
+I299271,126_S_1187,MCI,M,82.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,2/07/2012,NiFTI,Yes
+I92464,126_S_0709,MCI,M,86.0,m18,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/19/2008,DCM,Yes
+I94644,126_S_0709,MCI,M,85.0,m18,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,1/29/2008,NiFTI,Yes
+I189839,126_S_0680,CN,M,82.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/29/2010,DCM,Yes
+I204357,126_S_0680,CN,M,82.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,7/21/2010,NiFTI,Yes
+I250337,123_S_4127,MCI,F,63.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/11/2011,DCM,Yes
+I250622,123_S_4127,MCI,F,63.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,8/03/2011,NiFTI,Yes
+I226610,123_S_1300,MCI,F,78.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/06/2011,DCM,Yes
+I274708,123_S_1300,MCI,F,78.0,m48,MRI,MT1; N3m,Pre-processed,3/25/2011,NiFTI,Yes
+I214746,123_S_0106,CN,F,78.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/24/2011,DCM,Yes
+I297306,123_S_0106,CN,F,78.0,m60,MRI,MT1; N3m,Pre-processed,1/24/2011,NiFTI,Yes
+I296584,116_S_4625,AD,M,64.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,3/29/2012,NiFTI,Yes
+I306330,116_S_4625,AD,M,64.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/20/2012,DCM,Yes
+I281425,116_S_4453,CN,M,66.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,1/18/2012,NiFTI,Yes
+I286309,116_S_4453,CN,M,66.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/10/2012,DCM,Yes
+I196116,116_S_0657,CN,F,82.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/01/2010,DCM,Yes
+I297275,116_S_0657,CN,F,82.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,10/01/2010,NiFTI,Yes
+I238689,116_S_0361,MCI,M,80.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/20/2011,DCM,Yes
+I297271,116_S_0361,MCI,M,80.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,5/20/2011,NiFTI,Yes
+I385443,114_S_2392,MCI,F,67.0,v11,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/06/2013,DCM,Yes
+I388911,114_S_2392,MCI,F,67.0,v11,MRI,MT1; GradWarp; N3m,Pre-processed,8/08/2013,NiFTI,Yes
+I286933,114_S_1118,MCI,M,88.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/24/2012,DCM,Yes
+I368966,114_S_1118,MCI,M,88.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,2/24/2012,NiFTI,Yes
+I291003,109_S_4499,CN,M,84.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,3/08/2012,NiFTI,Yes
+I295734,109_S_4499,CN,M,84.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/19/2012,DCM,Yes
+I66176,109_S_1343,MCI,M,65.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,3/20/2007,NiFTI,Yes
+I78598,109_S_1343,MCI,M,65.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/24/2007,DCM,Yes
+I37708,109_S_1157,AD,F,85.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/08/2007,DCM,Yes
+I119265,109_S_1157,AD,F,85.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled_2,Pre-processed,1/03/2007,NiFTI,Yes
+I36880,109_S_1114,MCI,F,79.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/09/2007,DCM,Yes
+I63489,109_S_1114,MCI,F,78.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/27/2006,NiFTI,Yes
+I33967,109_S_1013,CN,M,78.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/18/2006,DCM,Yes
+I66149,109_S_1013,CN,M,78.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/08/2006,NiFTI,Yes
+I30092,109_S_0967,CN,M,77.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/15/2006,DCM,Yes
+I55044,109_S_0967,CN,M,77.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/23/2006,NiFTI,Yes
+I32544,109_S_0950,MCI,M,74.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/16/2006,DCM,Yes
+I97200,109_S_0950,MCI,M,74.0,sc,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/25/2006,NiFTI,Yes
+I30088,109_S_0777,AD,F,75.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/02/2006,DCM,Yes
+I82576,109_S_0777,AD,F,75.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,9/07/2006,NiFTI,Yes
+I225971,100_S_1286,CN,F,80.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/03/2011,DCM,Yes
+I275409,100_S_1286,CN,F,80.0,m48,MRI,MT1; N3m,Pre-processed,3/08/2011,NiFTI,Yes
+I223028,100_S_1226,MCI,M,87.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/15/2011,DCM,Yes
+I297042,100_S_1226,MCI,M,87.0,m48,MRI,MT1; N3m,Pre-processed,2/09/2011,NiFTI,Yes
+I240536,100_S_0296,MCI,M,84.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/18/2011,DCM,Yes
+I275407,100_S_0296,MCI,M,84.0,m60,MRI,MT1; N3m,Pre-processed,5/05/2011,NiFTI,Yes
+I214943,100_S_0069,CN,M,78.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/26/2011,DCM,Yes
+I275405,100_S_0069,CN,M,78.0,m60,MRI,MT1; N3m,Pre-processed,1/26/2011,NiFTI,Yes
+I246098,099_S_4104,CN,M,73.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/18/2011,DCM,Yes
+I296349,099_S_4104,CN,M,72.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,7/01/2011,NiFTI,Yes
+I247601,099_S_4086,CN,M,82.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/26/2011,DCM,Yes
+I296348,099_S_4086,CN,M,82.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,6/28/2011,NiFTI,Yes
+I244167,099_S_4076,CN,F,73.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/08/2011,DCM,Yes
+I296346,099_S_4076,CN,F,73.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,6/14/2011,NiFTI,Yes
+I227465,099_S_0352,CN,F,82.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/04/2011,DCM,Yes
+I297018,099_S_0352,CN,F,82.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,4/04/2011,NiFTI,Yes
+I298425,099_S_0291,MCI,M,86.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,4/17/2012,NiFTI,Yes
+I300416,099_S_0291,MCI,M,86.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/20/2012,DCM,Yes
+I202845,098_S_0896,CN,M,81.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/03/2010,DCM,Yes
+I297015,098_S_0896,CN,M,81.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,11/06/2010,NiFTI,Yes
+I226602,098_S_0172,CN,F,76.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/16/2011,DCM,Yes
+I297038,098_S_0172,CN,F,76.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,3/12/2011,NiFTI,Yes
+I228556,098_S_0160,MCI,M,80.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/11/2011,DCM,Yes
+I296995,098_S_0160,MCI,M,80.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,3/06/2011,NiFTI,Yes
+I263733,094_S_4234,CN,M,70.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,10/18/2011,NiFTI,Yes
+I269496,094_S_4234,CN,M,70.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/04/2011,DCM,Yes
+I66403,094_S_1417,MCI,M,63.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/06/2007,DCM,Yes
+I73647,094_S_1417,MCI,M,63.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,7/16/2007,NiFTI,Yes
+I58485,094_S_1402,AD,M,70.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/26/2007,DCM,Yes
+I66078,094_S_1402,AD,M,69.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,5/10/2007,NiFTI,Yes
+I56759,094_S_1398,MCI,F,78.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/07/2007,DCM,Yes
+I63227,094_S_1398,MCI,F,78.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,5/03/2007,NiFTI,Yes
+I57702,094_S_1397,AD,F,55.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/15/2007,DCM,Yes
+I95662,094_S_1397,AD,F,55.0,sc,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,4/26/2007,NiFTI,Yes
+I48297,094_S_1314,MCI,F,81.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/30/2007,DCM,Yes
+I63196,094_S_1314,MCI,F,81.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,2/26/2007,NiFTI,Yes
+I38477,094_S_1188,MCI,F,81.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/02/2007,DCM,Yes
+I66051,094_S_1188,MCI,F,81.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/28/2006,NiFTI,Yes
+I37232,094_S_1164,AD,F,70.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/18/2007,DCM,Yes
+I67223,094_S_1164,AD,F,70.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/11/2006,NiFTI,Yes
+I36875,094_S_1090,AD,M,71.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/16/2006,DCM,Yes
+I63176,094_S_1090,AD,M,71.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/04/2006,NiFTI,Yes
+I27920,094_S_0531,MCI,F,75.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/11/2006,DCM,Yes
+I49666,094_S_0531,MCI,F,74.0,sc,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,5/16/2006,NiFTI,Yes
+I40197,094_S_0526,CN,F,86.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/10/2007,DCM,Yes
+I64346,094_S_0526,CN,F,86.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,2/15/2007,NiFTI,Yes
+I30503,094_S_0489,CN,F,74.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/20/2006,DCM,Yes
+I64341,094_S_0489,CN,F,74.0,m06,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/21/2006,NiFTI,Yes
+I374699,082_S_5184,AD,F,73.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,5/22/2013,NiFTI,Yes
+I375265,082_S_5184,AD,F,73.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/03/2013,DCM,Yes
+I241401,082_S_4090,CN,M,71.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,6/20/2011,NiFTI,Yes
+I242648,082_S_4090,CN,M,71.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/28/2011,DCM,Yes
+I347195,082_S_2121,MCI,F,70.0,v11,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/15/2012,DCM,Yes
+I349300,082_S_2121,MCI,F,70.0,v11,MRI,MT1; GradWarp; N3m,Pre-processed,11/08/2012,NiFTI,Yes
+I63135,073_S_1357,MCI,M,71.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,4/09/2007,NiFTI,Yes
+I66392,073_S_1357,MCI,M,71.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/11/2007,DCM,Yes
+I33211,073_S_0909,MCI,F,69.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/05/2006,DCM,Yes
+I119235,073_S_0909,MCI,F,69.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled_2,Pre-processed,10/02/2006,NiFTI,Yes
+I44588,073_S_0746,MCI,F,74.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/01/2007,DCM,Yes
+I63122,073_S_0746,MCI,F,74.0,sc,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/30/2006,NiFTI,Yes
+I27900,073_S_0565,AD,M,75.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/22/2006,DCM,Yes
+I39919,073_S_0565,AD,M,75.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,6/21/2006,NiFTI,Yes
+I37988,073_S_0386,CN,F,73.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/09/2007,DCM,Yes
+I67720,073_S_0386,CN,F,73.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,1/04/2007,NiFTI,Yes
+I27885,073_S_0312,CN,M,83.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/21/2006,DCM,Yes
+I119230,073_S_0312,CN,M,83.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled_2,Pre-processed,5/31/2006,NiFTI,Yes
+I27881,073_S_0311,CN,F,78.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/21/2006,DCM,Yes
+I119229,073_S_0311,CN,F,78.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled_2,Pre-processed,5/31/2006,NiFTI,Yes
+I196771,073_S_0089,CN,M,70.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/15/2010,DCM,Yes
+I217926,073_S_0089,CN,M,70.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,9/27/2010,NiFTI,Yes
+I232381,072_S_1380,MCI,M,89.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/02/2011,DCM,Yes
+I274530,072_S_1380,MCI,M,89.0,v06,MRI,MT1; N3m,Pre-processed,5/26/2011,NiFTI,Yes
+I294117,068_S_4340,CN,F,67.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/29/2011,DCM,Yes
+I270046,068_S_4340,CN,F,67.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,11/28/2011,NiFTI,Yes
+I254775,068_S_4174,CN,F,74.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,8/19/2011,NiFTI,Yes
+I257494,068_S_4174,CN,F,74.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/16/2011,DCM,Yes
+I377886,067_S_5205,AD,F,59.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,6/17/2013,NiFTI,Yes
+I379228,067_S_5205,AD,F,59.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/01/2013,DCM,Yes
+I312637,067_S_4728,AD,M,82.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,6/01/2012,NiFTI,Yes
+I313009,067_S_4728,AD,M,82.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/20/2012,DCM,Yes
+I255422,067_S_4212,MCI,M,65.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,9/06/2011,NiFTI,Yes
+I258413,067_S_4212,MCI,M,65.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/22/2011,DCM,Yes
+I208769,067_S_0056,CN,F,75.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/13/2010,DCM,Yes
+I274523,067_S_0056,CN,F,75.0,m60,MRI,MT1; GradWarp; N3m,Pre-processed,12/10/2010,NiFTI,Yes
+I220234,057_S_1269,MCI,M,78.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/18/2011,DCM,Yes
+I296807,057_S_1269,MCI,M,78.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,2/16/2011,NiFTI,Yes
+I266120,057_S_1007,MCI,M,77.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/07/2011,DCM,Yes
+I296798,057_S_1007,MCI,M,77.0,m60,MRI,MT1; GradWarp; N3m,Pre-processed,11/09/2011,NiFTI,Yes
+I322470,053_S_4813,MCI,M,68.0,v02,MRI,MT1; N3m,Pre-processed,7/16/2012,NiFTI,Yes
+I332329,053_S_4813,MCI,M,68.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/31/2012,DCM,Yes
+I291936,053_S_4578,CN,F,69.0,v02,MRI,MT1; N3m,Pre-processed,3/16/2012,NiFTI,Yes
+I297098,053_S_4578,CN,F,69.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/10/2012,DCM,Yes
+I232377,052_S_1352,MCI,M,90.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/29/2011,DCM,Yes
+I296582,052_S_1352,MCI,M,90.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,4/05/2011,NiFTI,Yes
+I186983,052_S_1346,MCI,M,76.0,m36,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/08/2010,DCM,Yes
+I204072,052_S_1346,MCI,M,76.0,m36,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,6/11/2010,NiFTI,Yes
+I216715,052_S_0989,MCI,F,69.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/05/2011,DCM,Yes
+I296541,052_S_0989,MCI,F,69.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,1/17/2011,NiFTI,Yes
+I246702,052_S_0671,MCI,F,66.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/05/2011,DCM,Yes
+I296517,052_S_0671,MCI,F,66.0,m60,MRI,MT1; GradWarp; N3m,Pre-processed,6/27/2011,NiFTI,Yes
+I349157,051_S_5005,AD,M,78.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/21/2012,DCM,Yes
+I349825,051_S_5005,AD,M,78.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,11/06/2012,NiFTI,Yes
+I238645,041_S_4037,CN,M,76.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,5/24/2011,NiFTI,Yes
+I239560,041_S_4037,CN,M,76.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/03/2011,DCM,Yes
+I245555,041_S_4014,CN,M,81.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/15/2011,DCM,Yes
+I250633,041_S_4014,CN,M,81.0,v04,MRI,MT1; GradWarp; N3m,Pre-processed,8/02/2011,NiFTI,Yes
+I73284,041_S_1425,MCI,F,76.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/12/2007,DCM,Yes
+I73357,041_S_1425,MCI,F,76.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,8/06/2007,NiFTI,Yes
+I72232,041_S_1423,MCI,M,70.0,sc,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,8/03/2007,NiFTI,Yes
+I74278,041_S_1423,MCI,M,70.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/19/2007,DCM,Yes
+I79627,041_S_1420,MCI,F,82.0,sc,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,9/24/2007,NiFTI,Yes
+I79878,041_S_1420,MCI,F,82.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/23/2007,DCM,Yes
+I67297,041_S_1418,MCI,M,82.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/12/2007,DCM,Yes
+I73642,041_S_1418,MCI,M,82.0,sc,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,7/27/2007,NiFTI,Yes
+I70936,041_S_1412,MCI,M,60.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/24/2007,DCM,Yes
+I72219,041_S_1412,MCI,M,59.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,6/25/2007,NiFTI,Yes
+I77220,041_S_1411,MCI,M,74.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/05/2007,DCM,Yes
+I80161,041_S_1411,MCI,M,74.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,7/16/2007,NiFTI,Yes
+I53497,041_S_1391,AD,M,85.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/02/2007,DCM,Yes
+I62933,041_S_1391,AD,M,85.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,3/29/2007,NiFTI,Yes
+I46782,041_S_1368,AD,F,75.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/22/2007,DCM,Yes
+I65248,041_S_1368,AD,F,75.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,3/05/2007,NiFTI,Yes
+I44576,041_S_1260,MCI,M,71.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/08/2007,DCM,Yes
+I65239,041_S_1260,MCI,M,71.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,2/01/2007,NiFTI,Yes
+I45634,041_S_1010,MCI,M,75.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/20/2007,DCM,Yes
+I65230,041_S_1010,MCI,M,74.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/12/2006,NiFTI,Yes
+I36061,041_S_1002,CN,F,77.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/09/2007,DCM,Yes
+I65220,041_S_1002,CN,F,76.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/08/2006,NiFTI,Yes
+I34698,041_S_0898,CN,F,83.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/18/2006,NiFTI,Yes
+I36053,041_S_0898,CN,F,84.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/09/2007,DCM,Yes
+I27830,041_S_0721,MCI,M,66.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/25/2006,DCM,Yes
+I40055,041_S_0721,MCI,M,66.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,9/14/2006,NiFTI,Yes
+I39761,041_S_0679,MCI,M,64.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/09/2007,DCM,Yes
+I65187,041_S_0679,MCI,M,64.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,2/09/2007,NiFTI,Yes
+I38284,041_S_0598,MCI,M,73.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/05/2007,DCM,Yes
+I65179,041_S_0598,MCI,M,73.0,m06,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,1/30/2007,NiFTI,Yes
+I27818,041_S_0549,MCI,M,69.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/11/2006,DCM,Yes
+I39506,041_S_0549,MCI,M,69.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,6/13/2006,NiFTI,Yes
+I37944,041_S_0446,MCI,M,90.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/16/2007,DCM,Yes
+I65167,041_S_0446,MCI,M,90.0,m06,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,1/08/2007,NiFTI,Yes
+I36048,041_S_0282,MCI,M,73.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/09/2007,DCM,Yes
+I106213,041_S_0282,MCI,M,73.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,2/08/2007,NiFTI,Yes
+I35364,041_S_0262,CN,M,87.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/03/2007,DCM,Yes
+I83108,041_S_0262,CN,M,87.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,1/02/2007,NiFTI,Yes
+I305185,037_S_4706,MCI,M,61.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/16/2012,DCM,Yes
+I305482,037_S_4706,MCI,M,61.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,5/10/2012,NiFTI,Yes
+I286641,037_S_4308,CN,M,74.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,2/20/2012,NiFTI,Yes
+I289798,037_S_4308,CN,M,74.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/27/2012,DCM,Yes
+I258628,037_S_4214,MCI,M,74.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,9/12/2011,NiFTI,Yes
+I260988,037_S_4214,MCI,M,74.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/10/2011,DCM,Yes
+I242616,037_S_4001,AD,F,89.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/07/2011,DCM,Yes
+I297310,037_S_4001,AD,F,89.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,2/21/2011,NiFTI,Yes
+I194588,037_S_1421,MCI,F,78.0,m36,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/24/2010,DCM,Yes
+I203713,037_S_1421,MCI,F,78.0,m36,MRI,MPR-R; GradWarp; N3; Scaled,Pre-processed,9/24/2010,NiFTI,Yes
+I167834,037_S_1078,MCI,M,74.0,m36,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/01/2010,DCM,Yes
+I203703,037_S_1078,MCI,M,74.0,m36,MRI,MPR; GradWarp; N3; Scaled,Pre-processed,3/01/2010,NiFTI,Yes
+I118200,037_S_0566,MCI,M,81.0,m24,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/18/2008,DCM,Yes
+I123891,037_S_0566,MCI,M,81.0,m24,MRI,MPR-R; GradWarp; N3; Scaled,Pre-processed,8/04/2008,NiFTI,Yes
+I106240,037_S_0467,CN,F,83.0,m24,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/19/2008,DCM,Yes
+I107742,037_S_0467,CN,F,83.0,m24,MRI,MPR; GradWarp; N3; Scaled,Pre-processed,5/19/2008,NiFTI,Yes
+I219648,037_S_0377,MCI,M,84.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/11/2011,DCM,Yes
+I295926,037_S_0377,MCI,M,84.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,2/11/2011,NiFTI,Yes
+I147823,037_S_0327,CN,M,73.0,m36,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/23/2009,DCM,Yes
+I160210,037_S_0327,CN,M,73.0,m36,MRI,MPR-R; GradWarp; N3; Scaled,Pre-processed,6/23/2009,NiFTI,Yes
+I377053,036_S_5210,AD,M,86.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,6/12/2013,NiFTI,Yes
+I378513,036_S_5210,AD,M,86.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/20/2013,DCM,Yes
+I326520,036_S_4894,AD,F,61.0,v02,MRI,MT1; N3m,Pre-processed,8/09/2012,NiFTI,Yes
+I334294,036_S_4894,AD,F,61.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/04/2012,DCM,Yes
+I283933,036_S_4491,CN,M,84.0,v02,MRI,MT1; N3m,Pre-processed,1/31/2012,NiFTI,Yes
+I286465,036_S_4491,CN,M,84.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/22/2012,DCM,Yes
+I302386,036_S_4389,CN,M,82.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/03/2012,DCM,Yes
+I306715,036_S_4389,CN,M,82.0,v04,MRI,MT1; N3m,Pre-processed,5/03/2012,NiFTI,Yes
+I44572,036_S_1240,MCI,F,67.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/26/2007,DCM,Yes
+I65118,036_S_1240,MCI,F,67.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,2/13/2007,NiFTI,Yes
+I36870,036_S_1135,MCI,M,76.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/15/2007,DCM,Yes
+I65109,036_S_1135,MCI,M,76.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/27/2006,NiFTI,Yes
+I35448,036_S_1023,CN,F,77.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/05/2007,DCM,Yes
+I65104,036_S_1023,CN,F,77.0,sc,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/20/2006,NiFTI,Yes
+I31041,036_S_1001,AD,M,69.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/29/2006,DCM,Yes
+I38661,036_S_1001,AD,M,69.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/20/2006,NiFTI,Yes
+I36203,036_S_0976,MCI,M,81.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/09/2007,DCM,Yes
+I65091,036_S_0976,MCI,M,81.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/12/2006,NiFTI,Yes
+I29193,036_S_0945,MCI,M,72.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/08/2006,DCM,Yes
+I36999,036_S_0945,MCI,M,72.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/25/2006,NiFTI,Yes
+I27788,036_S_0813,CN,M,73.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/13/2006,DCM,Yes
+I36979,036_S_0813,CN,M,73.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,8/25/2006,NiFTI,Yes
+I27775,036_S_0760,AD,F,70.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/13/2006,DCM,Yes
+I38652,036_S_0760,AD,F,69.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,8/25/2006,NiFTI,Yes
+I27772,036_S_0748,MCI,M,80.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/05/2006,DCM,Yes
+I36959,036_S_0748,MCI,M,80.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,8/10/2006,NiFTI,Yes
+I27767,036_S_0673,MCI,M,78.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/14/2006,DCM,Yes
+I36949,036_S_0673,MCI,M,78.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,7/21/2006,NiFTI,Yes
+I27763,036_S_0672,CN,F,62.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/14/2006,DCM,Yes
+I36938,036_S_0672,CN,F,62.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,7/21/2006,NiFTI,Yes
+I37984,036_S_0656,MCI,M,83.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/22/2007,DCM,Yes
+I65064,036_S_0656,MCI,M,83.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,1/22/2007,NiFTI,Yes
+I56972,036_S_0577,AD,F,73.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/06/2007,DCM,Yes
+I72195,036_S_0577,AD,F,73.0,m12,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,6/06/2007,NiFTI,Yes
+I34057,036_S_0576,CN,M,78.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/19/2006,DCM,Yes
+I68513,036_S_0576,CN,M,78.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/05/2006,NiFTI,Yes
+I285123,033_S_4508,CN,F,77.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,2/07/2012,NiFTI,Yes
+I287180,033_S_4508,CN,F,77.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/28/2012,DCM,Yes
+I206369,033_S_1098,CN,F,76.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/11/2010,DCM,Yes
+I218790,033_S_1098,CN,F,76.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/10/2010,NiFTI,Yes
+I206361,033_S_1016,CN,F,83.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/12/2010,DCM,Yes
+I218752,033_S_1016,CN,F,82.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/10/2010,NiFTI,Yes
+I199422,033_S_0923,CN,M,87.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/21/2010,DCM,Yes
+I218372,033_S_0923,CN,M,87.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/15/2010,NiFTI,Yes
+I199408,033_S_0920,CN,F,84.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/13/2010,DCM,Yes
+I218354,033_S_0920,CN,F,84.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/13/2010,NiFTI,Yes
+I199397,033_S_0906,MCI,F,69.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/13/2010,DCM,Yes
+I217761,033_S_0906,MCI,F,69.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/13/2010,NiFTI,Yes
+I189835,033_S_0741,CN,F,84.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/05/2010,DCM,Yes
+I300959,033_S_0741,CN,F,84.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,8/04/2010,NiFTI,Yes
+I189831,033_S_0734,CN,M,77.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/05/2010,DCM,Yes
+I217906,033_S_0734,CN,M,77.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,8/04/2010,NiFTI,Yes
+I215079,032_S_1169,CN,F,76.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/19/2011,DCM,Yes
+I295870,032_S_1169,CN,F,76.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,1/26/2011,NiFTI,Yes
+I261902,032_S_0677,CN,M,76.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/26/2011,DCM,Yes
+I295857,032_S_0677,CN,M,76.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,9/26/2011,NiFTI,Yes
+I260466,032_S_0479,CN,F,79.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/26/2011,DCM,Yes
+I370172,032_S_0479,CN,F,79.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,9/15/2011,NiFTI,Yes
+I240022,032_S_0214,MCI,M,70.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/21/2011,DCM,Yes
+I294873,032_S_0214,MCI,M,70.0,m60,MRI,MT1; GradWarp; N3m,Pre-processed,4/21/2011,NiFTI,Yes
+I281435,031_S_4474,CN,M,86.0,v02,MRI,MT1; N3m,Pre-processed,1/24/2012,NiFTI,Yes
+I289519,031_S_4474,CN,M,86.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/03/2012,DCM,Yes
+I258660,031_S_4218,CN,M,81.0,v02,MRI,MT1; N3m,Pre-processed,9/08/2011,NiFTI,Yes
+I260458,031_S_4218,CN,M,81.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/29/2011,DCM,Yes
+I235656,031_S_4032,CN,F,70.0,v02,MRI,MT1; N3m,Pre-processed,5/09/2011,NiFTI,Yes
+I240254,031_S_4032,CN,F,70.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/23/2011,DCM,Yes
+I229344,031_S_4024,AD,F,56.0,v02,MRI,MT1; N3m,Pre-processed,4/22/2011,NiFTI,Yes
+I235141,031_S_4024,AD,F,56.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/29/2011,DCM,Yes
+I208362,031_S_0867,MCI,M,76.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/11/2010,DCM,Yes
+I217751,031_S_0867,MCI,M,76.0,m48,MRI,MPR; ; N3; Scaled,Pre-processed,10/11/2010,NiFTI,Yes
+I196763,031_S_0830,MCI,M,75.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/30/2010,DCM,Yes
+I218328,031_S_0830,MCI,M,75.0,m48,MRI,MPR; ; N3; Scaled,Pre-processed,9/30/2010,NiFTI,Yes
+I191837,031_S_0618,CN,M,79.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/02/2010,DCM,Yes
+I218319,031_S_0618,CN,M,79.0,m48,MRI,MPR; ; N3; Scaled,Pre-processed,6/25/2010,NiFTI,Yes
+I312696,029_S_4385,CN,F,69.0,v04,MRI,MT1; GradWarp; N3m,Pre-processed,5/15/2012,NiFTI,Yes
+I312965,029_S_4385,CN,F,69.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/25/2012,DCM,Yes
+I206534,029_S_0845,CN,M,85.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/09/2010,DCM,Yes
+I217737,029_S_0845,CN,M,85.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/09/2010,NiFTI,Yes
+I362594,027_S_5083,CN,M,74.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/06/2013,DCM,Yes
+I366691,027_S_5083,CN,M,74.0,v02,MRI,"Spatially Normalized, Masked and N3 corrected T1 image",Pre-processed,2/21/2013,NiFTI,Yes
+I339185,027_S_4962,AD,F,80.0,v02,MRI,MT1; N3m,Pre-processed,10/05/2012,NiFTI,Yes
+I344217,027_S_4962,AD,F,80.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/18/2012,DCM,Yes
+I321466,027_S_4802,AD,M,83.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,7/22/2012,NiFTI,Yes
+I324447,027_S_4802,AD,M,83.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/30/2012,DCM,Yes
+I223753,027_S_0120,CN,M,77.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/14/2011,DCM,Yes
+I294839,027_S_0120,CN,M,77.0,m60,MRI,MT1; GradWarp; N3m,Pre-processed,2/07/2011,NiFTI,Yes
+I215051,027_S_0074,CN,M,83.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/03/2011,DCM,Yes
+I217719,027_S_0074,CN,M,83.0,m60,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/27/2010,NiFTI,Yes
+I326598,024_S_4905,AD,F,73.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,8/16/2012,NiFTI,Yes
+I332379,024_S_4905,AD,F,73.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/07/2012,DCM,Yes
+I65280,024_S_1400,MCI,M,78.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,5/08/2007,NiFTI,Yes
+I56351,024_S_1400,MCI,M,78.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/04/2007,DCM,Yes
+I50637,024_S_1393,MCI,M,83.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/23/2007,DCM,Yes
+I65271,024_S_1393,MCI,M,83.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,3/13/2007,NiFTI,Yes
+I44958,024_S_1307,AD,F,75.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/12/2007,DCM,Yes
+I63415,024_S_1307,AD,F,75.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,2/23/2007,NiFTI,Yes
+I65166,024_S_1171,AD,M,72.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/24/2007,DCM,Yes
+I71473,024_S_1171,AD,M,72.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,7/09/2007,NiFTI,Yes
+I30499,024_S_1063,CN,F,78.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/21/2006,DCM,Yes
+I63392,024_S_1063,CN,F,78.0,sc,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/31/2006,NiFTI,Yes
+I30495,024_S_0985,CN,M,82.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/14/2006,DCM,Yes
+I125178,024_S_0985,CN,M,82.0,m24,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/30/2008,NiFTI,Yes
+I218240,023_S_1046,MCI,M,76.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/15/2011,DCM,Yes
+I294815,023_S_1046,MCI,M,76.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,2/14/2011,NiFTI,Yes
+I203260,023_S_0887,MCI,F,78.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/05/2010,DCM,Yes
+I217701,023_S_0887,MCI,F,78.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,9/27/2010,NiFTI,Yes
+I176283,023_S_0376,MCI,M,75.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,5/14/2010,NiFTI,Yes
+I185319,023_S_0376,MCI,M,75.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/27/2010,DCM,Yes
+I217278,023_S_0061,CN,F,82.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/08/2011,DCM,Yes
+I294781,023_S_0061,CN,F,82.0,m60,MRI,MT1; GradWarp; N3m,Pre-processed,2/10/2011,NiFTI,Yes
+I229777,023_S_0058,CN,M,76.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/28/2011,DCM,Yes
+I294770,023_S_0058,CN,M,76.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,4/27/2011,NiFTI,Yes
+I228637,023_S_0042,MCI,M,78.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/14/2011,DCM,Yes
+I294756,023_S_0042,MCI,M,78.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,4/13/2011,NiFTI,Yes
+I207681,023_S_0031,CN,F,83.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/02/2010,DCM,Yes
+I294743,023_S_0031,CN,F,83.0,m60,MRI,MT1; GradWarp; N3m,Pre-processed,12/01/2010,NiFTI,Yes
+I261894,022_S_4173,CN,F,70.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/03/2011,DCM,Yes
+I376828,022_S_4173,CN,F,70.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,9/13/2011,NiFTI,Yes
+I216106,022_S_0096,CN,M,85.0,m60,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/31/2011,DCM,Yes
+I293729,022_S_0096,CN,M,85.0,m60,MRI,MT1; GradWarp; N3m,Pre-processed,1/31/2011,NiFTI,Yes
+I306699,021_S_4718,AD,M,79.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,5/16/2012,NiFTI,Yes
+I310736,021_S_4718,AD,M,79.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/29/2012,DCM,Yes
+I40893,021_S_0626,MCI,M,84.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/15/2007,DCM,Yes
+I68056,021_S_0626,MCI,M,84.0,m06,MRI,MPR-R; GradWarp; N3; Scaled,Pre-processed,2/15/2007,NiFTI,Yes
+I52714,021_S_0343,AD,M,73.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/24/2007,DCM,Yes
+I85699,021_S_0343,AD,M,73.0,m12,MRI,MPR; GradWarp; N3; Scaled,Pre-processed,4/24/2007,NiFTI,Yes
+I348547,019_S_5012,AD,M,76.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/29/2012,DCM,Yes
+I349820,019_S_5012,AD,M,76.0,v02,MRI,MT1; N3m,Pre-processed,11/05/2012,NiFTI,Yes
+I317944,019_S_4835,CN,M,79.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/24/2012,DCM,Yes
+I321305,019_S_4835,CN,M,79.0,v02,MRI,MT1; N3m,Pre-processed,7/10/2012,NiFTI,Yes
+I281432,019_S_4477,AD,F,82.0,v02,MRI,MT1; N3m,Pre-processed,1/25/2012,NiFTI,Yes
+I282939,019_S_4477,AD,F,82.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/31/2012,DCM,Yes
+I272652,019_S_4367,CN,F,65.0,v02,MRI,MT1; N3m,Pre-processed,11/30/2011,NiFTI,Yes
+I273380,019_S_4367,CN,F,65.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/05/2011,DCM,Yes
+I324443,018_S_4733,AD,M,76.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/14/2012,DCM,Yes
+I337517,018_S_4733,AD,M,76.0,v04,MRI,MT1; N3m,Pre-processed,8/29/2012,NiFTI,Yes
+I321646,018_S_4313,CN,F,78.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/17/2012,DCM,Yes
+I326548,018_S_4313,CN,F,78.0,v05,MRI,MT1; N3m,Pre-processed,8/01/2012,NiFTI,Yes
+I363527,018_S_0142,MCI,M,86.0,v11,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/25/2013,DCM,Yes
+I364672,018_S_0142,MCI,M,86.0,v11,MRI,MT1; GradWarp; N3m,Pre-processed,3/01/2013,NiFTI,Yes
+I306755,016_S_4638,CN,M,74.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,5/21/2012,NiFTI,Yes
+I310035,016_S_4638,CN,M,74.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/07/2012,DCM,Yes
+I293689,016_S_4591,AD,F,66.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,3/22/2012,NiFTI,Yes
+I296597,016_S_4591,AD,F,66.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/06/2012,DCM,Yes
+I193166,016_S_0702,MCI,M,89.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/07/2010,DCM,Yes
+I288896,016_S_0702,MCI,M,89.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,8/31/2010,NiFTI,Yes
+I206601,016_S_0359,CN,F,86.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/15/2010,DCM,Yes
+I293688,016_S_0359,CN,F,86.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,11/04/2010,NiFTI,Yes
+I203630,014_S_0658,MCI,M,77.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/04/2010,DCM,Yes
+I205483,014_S_0658,MCI,M,76.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,7/30/2010,NiFTI,Yes
+I196278,014_S_0563,MCI,M,85.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/08/2010,DCM,Yes
+I217681,014_S_0563,MCI,M,85.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/04/2010,NiFTI,Yes
+I190162,014_S_0548,CN,F,78.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/06/2010,DCM,Yes
+I201531,014_S_0548,CN,F,78.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,7/30/2010,NiFTI,Yes
+I192985,014_S_0520,CN,F,82.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/16/2010,DCM,Yes
+I218436,014_S_0520,CN,F,82.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,8/30/2010,NiFTI,Yes
+I192981,014_S_0519,CN,M,79.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/16/2010,DCM,Yes
+I201513,014_S_0519,CN,M,78.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,8/30/2010,NiFTI,Yes
+I300513,012_S_4643,CN,F,65.0,v02,MRI,MT1; N3m,Pre-processed,4/11/2012,NiFTI,Yes
+I301585,012_S_4643,CN,F,65.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/27/2012,DCM,Yes
+I291050,012_S_4545,CN,F,67.0,v02,MRI,MT1; N3m,Pre-processed,3/14/2012,NiFTI,Yes
+I296593,012_S_4545,CN,F,67.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/27/2012,DCM,Yes
+I258685,011_S_4222,CN,F,82.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,9/14/2011,NiFTI,Yes
+I259647,011_S_4222,CN,F,82.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/26/2011,DCM,Yes
+I250305,011_S_4105,CN,F,71.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/22/2011,DCM,Yes
+I431749,011_S_4105,CN,F,71.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,7/08/2011,NiFTI,Yes
+I62636,011_S_1282,MCI,F,77.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,2/09/2007,NiFTI,Yes
+I44539,011_S_1282,MCI,F,77.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/12/2007,DCM,Yes
+I27019,011_S_0861,MCI,M,87.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/17/2006,DCM,Yes
+I35513,011_S_0861,MCI,M,87.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,9/27/2006,NiFTI,Yes
+I27011,011_S_0362,MCI,F,71.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/18/2006,DCM,Yes
+I67066,011_S_0362,MCI,F,71.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/18/2006,NiFTI,Yes
+I27003,011_S_0326,MCI,M,78.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/16/2006,DCM,Yes
+I66968,011_S_0326,MCI,M,78.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/16/2006,NiFTI,Yes
+I26995,011_S_0183,AD,F,73.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/04/2006,DCM,Yes
+I32013,011_S_0183,AD,F,73.0,m06,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/04/2006,NiFTI,Yes
+I31588,011_S_0053,AD,M,81.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/29/2006,DCM,Yes
+I66945,011_S_0053,AD,M,81.0,m12,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/28/2006,NiFTI,Yes
+I30491,011_S_0023,CN,M,73.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/21/2006,DCM,Yes
+I65902,011_S_0023,CN,M,73.0,m12,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/21/2006,NiFTI,Yes
+I28838,011_S_0021,CN,F,74.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/02/2006,DCM,Yes
+I31970,011_S_0021,CN,F,74.0,m12,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/02/2006,NiFTI,Yes
+I26917,011_S_0016,CN,M,67.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/10/2006,DCM,Yes
+I31933,011_S_0016,CN,M,67.0,m12,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/10/2006,NiFTI,Yes
+I29533,011_S_0010,AD,F,75.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/09/2006,DCM,Yes
+I94368,011_S_0010,AD,F,75.0,m12,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,11/09/2006,NiFTI,Yes
+I26885,011_S_0008,CN,F,86.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/19/2006,DCM,Yes
+I32301,011_S_0008,CN,F,85.0,m06,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,3/20/2006,NiFTI,Yes
+I26858,011_S_0005,CN,M,75.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/05/2006,DCM,Yes
+I31906,011_S_0005,CN,M,75.0,m12,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,9/05/2006,NiFTI,Yes
+I26827,011_S_0003,AD,M,82.0,m12,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/12/2006,DCM,Yes
+I35576,011_S_0003,AD,M,82.0,m12,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,9/12/2006,NiFTI,Yes
+I36833,010_S_0904,MCI,M,84.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/11/2007,DCM,Yes
+I63357,010_S_0904,MCI,M,84.0,sc,MRI,MPR; ; N3; Scaled,Pre-processed,12/07/2006,NiFTI,Yes
+I29518,010_S_0786,AD,M,75.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/10/2006,DCM,Yes
+I65597,010_S_0786,AD,M,75.0,sc,MRI,MPR; ; N3; Scaled,Pre-processed,9/27/2006,NiFTI,Yes
+I55247,010_S_0472,CN,M,73.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,5/14/2007,DCM,Yes
+I82115,010_S_0472,CN,M,73.0,m06,MRI,MPR; ; N3; Scaled,Pre-processed,5/18/2007,NiFTI,Yes
+I26722,010_S_0422,MCI,M,62.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/24/2006,DCM,Yes
+I67144,010_S_0422,MCI,M,62.0,sc,MRI,MPR-R; ; N3; Scaled,Pre-processed,6/15/2006,NiFTI,Yes
+I26717,010_S_0420,CN,M,74.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/06/2006,DCM,Yes
+I65580,010_S_0420,CN,M,74.0,sc,MRI,MPR; ; N3; Scaled,Pre-processed,6/15/2006,NiFTI,Yes
+I35339,010_S_0419,CN,M,71.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/04/2007,DCM,Yes
+I63325,010_S_0419,CN,M,71.0,m06,MRI,MPR; ; N3; Scaled,Pre-processed,12/15/2006,NiFTI,Yes
+I26748,010_S_0161,MCI,M,80.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/03/2006,DCM,Yes
+I63315,010_S_0161,MCI,M,80.0,m06,MRI,MPR; ; N3; Scaled,Pre-processed,8/16/2006,NiFTI,Yes
+I47366,009_S_1354,AD,F,59.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/22/2007,DCM,Yes
+I60443,009_S_1354,AD,F,59.0,sc,MRI,MPR; GradWarp; N3; Scaled,Pre-processed,3/06/2007,NiFTI,Yes
+I39752,009_S_1199,MCI,M,59.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/30/2007,DCM,Yes
+I52836,009_S_1199,MCI,M,58.0,sc,MRI,MPR-R; GradWarp; N3; Scaled,Pre-processed,1/16/2007,NiFTI,Yes
+I30987,009_S_1030,MCI,M,68.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/13/2006,DCM,Yes
+I54651,009_S_1030,MCI,M,68.0,sc,MRI,MPR; GradWarp; N3; Scaled,Pre-processed,11/01/2006,NiFTI,Yes
+I27130,009_S_0862,CN,F,74.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/04/2006,DCM,Yes
+I121228,009_S_0862,CN,F,74.0,sc,MRI,MPR; GradWarp; N3; Scaled,Pre-processed,9/19/2006,NiFTI,Yes
+I27126,009_S_0842,CN,M,74.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/09/2006,DCM,Yes
+I89575,009_S_0842,CN,M,74.0,sc,MRI,MPR; GradWarp; N3; Scaled,Pre-processed,9/07/2006,NiFTI,Yes
+I27122,009_S_0751,CN,M,71.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/21/2006,DCM,Yes
+I101528,009_S_0751,CN,M,71.0,sc,MRI,MPR; GradWarp; N3; Scaled,Pre-processed,7/25/2006,NiFTI,Yes
+I385711,007_S_5265,CN,F,75.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/12/2013,DCM,Yes
+I395090,007_S_5265,CN,F,75.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,7/30/2013,NiFTI,Yes
+I296530,007_S_4637,CN,F,71.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,4/05/2012,NiFTI,Yes
+I300771,007_S_4637,CN,F,71.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/16/2012,DCM,Yes
+I272696,007_S_4387,CN,F,76.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,12/05/2011,NiFTI,Yes
+I274778,007_S_4387,CN,F,76.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/19/2011,DCM,Yes
+I263679,007_S_4272,MCI,M,71.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,10/17/2011,NiFTI,Yes
+I266945,007_S_4272,MCI,M,71.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/31/2011,DCM,Yes
+I252748,007_S_2394,MCI,M,68.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/19/2011,DCM,Yes
+I327082,007_S_2394,MCI,M,68.0,scmri,MRI,MT1; GradWarp; N3m,Pre-processed,7/07/2011,NiFTI,Yes
+I48055,007_S_1339,AD,F,80.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/28/2007,DCM,Yes
+I56319,007_S_1339,AD,F,80.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,2/22/2007,NiFTI,Yes
+I287164,007_S_1206,CN,M,78.0,v06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/20/2012,DCM,Yes
+I326626,007_S_1206,CN,M,78.0,v06,MRI,MT1; GradWarp; N3m,Pre-processed,2/16/2012,NiFTI,Yes
+I26506,007_S_0698,MCI,M,74.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/28/2006,DCM,Yes
+I36613,007_S_0698,MCI,M,74.0,sc,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,7/07/2006,NiFTI,Yes
+I26502,007_S_0414,MCI,F,80.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/21/2006,DCM,Yes
+I36599,007_S_0414,MCI,F,80.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,5/22/2006,NiFTI,Yes
+I26498,007_S_0344,MCI,M,79.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/19/2006,DCM,Yes
+I118696,007_S_0344,MCI,M,79.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled_2,Pre-processed,3/31/2006,NiFTI,Yes
+I26494,007_S_0316,AD,M,81.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/24/2006,DCM,Yes
+I36573,007_S_0316,AD,M,81.0,sc,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,3/29/2006,NiFTI,Yes
+I26490,007_S_0293,MCI,M,88.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/29/2006,DCM,Yes
+I118690,007_S_0293,MCI,M,88.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled_2,Pre-processed,3/14/2006,NiFTI,Yes
+I26419,007_S_0128,MCI,F,64.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/09/2006,DCM,Yes
+I118683,007_S_0128,MCI,F,64.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled_2,Pre-processed,1/16/2006,NiFTI,Yes
+I25392,007_S_0101,MCI,M,74.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/11/2006,DCM,Yes
+I36726,007_S_0101,MCI,M,74.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,12/20/2005,NiFTI,Yes
+I280570,006_S_4449,CN,F,67.0,v02,MRI,MT1; N3m,Pre-processed,1/19/2012,NiFTI,Yes
+I282606,006_S_4449,CN,F,67.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/30/2012,DCM,Yes
+I62574,006_S_0675,MCI,F,80.0,m06,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,4/26/2007,NiFTI,Yes
+I50625,006_S_0675,MCI,F,80.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/11/2007,DCM,Yes
+I52246,005_S_1341,AD,F,72.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,4/27/2007,DCM,Yes
+I60417,005_S_1341,AD,F,72.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,3/07/2007,NiFTI,Yes
+I40889,005_S_1224,MCI,M,81.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/16/2007,DCM,Yes
+I60406,005_S_1224,MCI,M,81.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,1/23/2007,NiFTI,Yes
+I30258,005_S_0929,AD,M,82.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/20/2006,DCM,Yes
+I74609,005_S_0929,AD,M,82.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/02/2006,NiFTI,Yes
+I26265,005_S_0610,CN,M,79.0,bl,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/27/2006,DCM,Yes
+I32667,005_S_0610,CN,M,79.0,sc,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,6/21/2006,NiFTI,Yes
+I209404,005_S_0602,CN,M,75.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,12/17/2010,DCM,Yes
+I290386,005_S_0602,CN,M,76.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,2/16/2011,NiFTI,Yes
+I196759,005_S_0553,CN,M,89.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/13/2010,DCM,Yes
+I217663,005_S_0553,CN,M,89.0,m48,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/13/2010,NiFTI,Yes
+I68423,005_S_0546,MCI,M,80.0,m06,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,2/02/2007,NiFTI,Yes
+I38108,005_S_0546,MCI,M,80.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,2/02/2007,DCM,Yes
+I26330,005_S_0223,CN,F,79.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/11/2006,DCM,Yes
+I66520,005_S_0223,CN,F,79.0,m06,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/11/2006,NiFTI,Yes
+I26326,005_S_0222,MCI,M,87.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/03/2006,DCM,Yes
+I51469,005_S_0222,MCI,M,87.0,m06,MRI,MPR; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/03/2006,NiFTI,Yes
+I26283,005_S_0221,AD,M,68.0,m06,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,10/06/2006,DCM,Yes
+I32899,005_S_0221,AD,M,68.0,m06,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled,Pre-processed,10/06/2006,NiFTI,Yes
+I383216,003_S_5187,AD,F,62.0,v02,MRI,"Spatially Normalized, Masked and N3 corrected T1 image",Pre-processed,6/07/2013,NiFTI,Yes
+I384405,003_S_5187,AD,F,62.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/21/2013,DCM,Yes
+I326606,003_S_4900,CN,F,60.0,v02,MRI,MT1; GradWarp; N3m,Pre-processed,8/15/2012,NiFTI,Yes
+I334504,003_S_4900,CN,F,60.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,8/28/2012,DCM,Yes
+I239987,003_S_1074,MCI,F,90.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,6/07/2011,DCM,Yes
+I299332,003_S_1074,MCI,F,90.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,6/07/2011,NiFTI,Yes
+I225617,003_S_1057,MCI,F,66.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/04/2011,DCM,Yes
+I299337,003_S_1057,MCI,F,66.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,3/04/2011,NiFTI,Yes
+I217261,003_S_0981,CN,F,89.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,1/04/2011,DCM,Yes
+I291893,003_S_0981,CN,F,89.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,1/04/2011,NiFTI,Yes
+I224485,003_S_0908,MCI,F,67.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/09/2010,DCM,Yes
+I299364,003_S_0908,MCI,F,67.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,11/09/2010,NiFTI,Yes
+I347758,002_S_5018,AD,M,73.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,11/14/2012,DCM,Yes
+I349889,002_S_5018,AD,M,73.0,v02,MRI,MT1; N3m,Pre-processed,11/08/2012,NiFTI,Yes
+I255410,002_S_4213,CN,F,78.0,v02,MRI,MT1; N3m,Pre-processed,9/02/2011,NiFTI,Yes
+I259144,002_S_4213,CN,F,78.0,v03,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,9/21/2011,DCM,Yes
+I221922,002_S_1261,CN,F,75.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,3/01/2011,DCM,Yes
+I225357,002_S_1261,CN,F,75.0,m48,MRI,MT1; N3m,Pre-processed,3/14/2011,NiFTI,Yes
+I189823,002_S_0729,MCI,F,69.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/29/2010,DCM,Yes
+I291877,002_S_0729,MCI,F,69.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,7/22/2010,NiFTI,Yes
+I187801,002_S_0685,CN,F,94.0,m48,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution",Pre-processed,7/27/2010,DCM,Yes
+I291874,002_S_0685,CN,F,94.0,m48,MRI,MT1; GradWarp; N3m,Pre-processed,7/15/2010,NiFTI,Yes
+I337234,037_S_4879,AD,F,79.7,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- fdg 4i/16s  FDG",Pre-processed,,DCM,No
+I335395,037_S_4879,AD,F,79.7,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE GRAPPA2,Pre-processed,,NiFTI,No
+I312055,130_S_4730,AD,F,81.2,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI FDG Brain_30min dyn",Pre-processed,,DCM,No
+I308046,130_S_4730,AD,F,81.2,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE SENSE2,Pre-processed,,NiFTI,No
+I341010,127_S_4940,AD,M,89.4,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30-60 min dynamic-3D 4i/16s  FDG",Pre-processed,,DCM,No
+I337438,127_S_4940,AD,M,89.4,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated Sag IR-SPGR,Pre-processed,,NiFTI,No
+I286582,127_S_4500,AD,F,90.4,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30-60 min dynamic-3D - Iter( FDG",Pre-processed,,DCM,No
+I285127,127_S_4500,AD,F,90.4,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Sag IR-SPGR,Pre-processed,,NiFTI,No
+I373714,036_S_5112,AD,F,74.5,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 MIN 3D FDG 4i/16s ",Pre-processed,,DCM,No
+I371899,036_S_5112,AD,F,74.5,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I265272,024_S_4280,AD,M,79.8,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min FDG 4i/16s",Pre-processed,,DCM,No
+I263676,024_S_4280,AD,M,79.8,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I347814,019_S_5019,AD,F,63.0,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI FDG 6X5",Pre-processed,,DCM,No
+I349868,019_S_5019,AD,F,63.0,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE SENSE2,Pre-processed,,NiFTI,No
+I355591,127_S_5056,AD,M,85.4,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30-60 min dynamic-3D - Iter( FDG",Pre-processed,,DCM,No
+I353885,127_S_5056,AD,M,85.4,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Sag IR-SPGR,Pre-processed,,NiFTI,No
+I259156,024_S_4223,AD,M,75.9,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min FDG 4i/16s",Pre-processed,,DCM,No
+I258623,024_S_4223,AD,M,75.9,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I257224,003_S_4136,AD,M,66.8,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI (AC)  FDG",Pre-processed,,DCM,No
+I250666,003_S_4136,AD,M,66.8,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated SAG IR-SPGR,Pre-processed,,NiFTI,No
+I384421,130_S_5231,AD,F,74.4,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI FDG Brain_30min dyn",Pre-processed,,DCM,No
+I414454,130_S_5231,AD,F,74.4,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I338919,021_S_4924,AD,M,77.4,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET3DBRAINOSEM FDG",Pre-processed,,DCM,No
+I335383,021_S_4924,AD,M,77.4,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated Sag IR-SPGR,Pre-processed,,NiFTI,No
+I336282,007_S_4911,AD,M,74.6,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- TRANSAXIAL:BRAIN 3D:FDG:IR CTAC NF",Pre-processed,,DCM,No
+I331714,007_S_4911,AD,M,74.6,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Sag IR-SPGR,Pre-processed,,NiFTI,No
+I290073,123_S_4526,AD,M,79.5,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET2 FDG",Pre-processed,,DCM,No
+I285119,123_S_4526,AD,M,79.5,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I347897,033_S_5017,AD,M,84.4,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI ITERATIVE FDG",Pre-processed,,DCM,No
+I349898,033_S_5017,AD,M,84.4,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE_P2_NO ANGLE=,Pre-processed,,NiFTI,No
+I308130,070_S_4692,AD,M,83.3,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- FORE-ITERATIVE6X5MIN3DFDGBASELINE",Pre-processed,,DCM,No
+I305605,070_S_4692,AD,M,83.3,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I342841,135_S_4954,AD,M,61.3,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- BRAIN EMISSION 4i/16s  FDG",Pre-processed,,DCM,No
+I337552,135_S_4954,AD,M,61.2,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I326559,073_S_4853,AD,F,71.0,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- Dyn_ADNI-GO(128x,4i20s,256mmFOV,NoFilter)  FDG",Pre-processed,,DCM,No
+I322646,073_S_4853,AD,F,70.9,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I359603,036_S_5063,AD,F,71.6,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 MIN 3D FDG 4i/16s ",Pre-processed,,DCM,No
+I358062,036_S_5063,AD,F,71.5,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I319779,128_S_4792,AD,M,80.5,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Brain PET: Raw FDG",Pre-processed,,DCM,No
+I312843,128_S_4792,AD,M,80.4,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I347960,130_S_4984,AD,F,73.3,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI FDG Brain_30min dyn",Pre-processed,,DCM,No
+I350508,130_S_4984,AD,F,73.2,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I338523,016_S_4887,AD,M,74.0,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI2 FDG (AC)",Pre-processed,,DCM,No
+I326635,016_S_4887,AD,M,73.9,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated SAG IR-SPGR,Pre-processed,,NiFTI,No
+I378497,007_S_5196,AD,F,73.0,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- TRANSAXIAL:BRAIN 3D:FDG:IR CTAC NF",Pre-processed,,DCM,No
+I377766,007_S_5196,AD,F,72.9,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Sag IR-SPGR,Pre-processed,,NiFTI,No
+I349205,135_S_5015,AD,F,78.0,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- BRAIN EMISSION 4i/16s  FDG",Pre-processed,,DCM,No
+I349915,135_S_5015,AD,F,77.9,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE GRAPPA2,Pre-processed,,NiFTI,No
+I378509,023_S_5120,AD,M,81.3,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET Brain FDG",Pre-processed,,DCM,No
+I374612,023_S_5120,AD,M,81.2,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I258863,116_S_4209,AD,F,77.9,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI_3D_Brain_ITERATIVE  FDG",Pre-processed,,DCM,No
+I275650,116_S_4209,AD,F,78.0,ADNI2 Month 3 MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I280192,003_S_4373,AD,F,71.3,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI (AC)  FDG",Pre-processed,,DCM,No
+I278134,003_S_4373,AD,F,71.2,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated SAG IR-SPGR,Pre-processed,,NiFTI,No
+I365856,016_S_5057,AD,M,75.6,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET (AC) FDG",Pre-processed,,DCM,No
+I366687,016_S_5057,AD,M,75.5,ADNI2 Screening MRI-New Pt,MRI,"Spatially Normalized, Masked and N3 corrected T1 image <- Sag IR-SPGR",Pre-processed,,NiFTI,No
+I257176,153_S_4172,AD,M,76.0,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- FDG PET BRAIN 2",Pre-processed,,DCM,No
+I254771,153_S_4172,AD,M,75.9,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE GRAPPA2,Pre-processed,,NiFTI,No
+I347770,005_S_4910,AD,F,81.7,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min 3D FDG - Iter(Brain Mode",Pre-processed,,DCM,No
+I351982,005_S_4910,AD,F,81.8,ADNI2 Month 3 MRI-New Pt,MRI,MT1; GradWarp; N3m <- Sag IR-SPGR,Pre-processed,,NiFTI,No
+I391310,135_S_5275,AD,F,78.1,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- BRAIN EMISSION 4i/16s  FDG",Pre-processed,,DCM,No
+I388925,135_S_5275,AD,F,78.0,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I316173,094_S_4737,AD,F,74.5,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30MIN 3D FDG 4i/16s ",Pre-processed,,DCM,No
+I846434,094_S_4737,AD,F,74.4,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated SAG IR-SPGR,Pre-processed,,NiFTI,No
+I329598,006_S_4867,AD,M,74.6,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI_FDG 6F 4i/16s ",Pre-processed,,DCM,No
+I322532,006_S_4867,AD,M,74.5,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE SENSE2,Pre-processed,,NiFTI,No
+I264745,019_S_4252,AD,F,86.7,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 019-S-4252-FDG/",Pre-processed,,DCM,No
+I280549,019_S_4252,AD,F,86.8,ADNI2 Month 3 MRI-New Pt,MRI,MT1; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I422643,068_S_5146,AD,F,73.1,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET AC 3D Brain ADNI-GO FDG",Pre-processed,,DCM,No
+I374660,068_S_5146,AD,F,73.0,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I298502,130_S_4589,AD,F,75.3,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI FDG Brain_30min dyn",Pre-processed,,DCM,No
+I291894,130_S_4589,AD,F,75.2,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I323923,036_S_4820,AD,F,85.8,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 MIN 3D FDG 4i/16s ",Pre-processed,,DCM,No
+I322288,036_S_4820,AD,F,85.7,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I308605,005_S_4707,AD,M,68.1,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min 3D FDG - Iter(Brain Mode",Pre-processed,,DCM,No
+I306746,005_S_4707,AD,M,68.0,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Sag IR-SPGR,Pre-processed,,NiFTI,No
+I319766,037_S_4770,AD,M,76.1,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- fdg 4i/16s  FDG",Pre-processed,,DCM,No
+I322292,037_S_4770,AD,M,76.0,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I384738,003_S_5165,AD,M,79.0,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI (AC)  FDG",Pre-processed,,DCM,No
+I383215,003_S_5165,AD,M,78.9,ADNI2 Screening MRI-New Pt,MRI,"Spatially Normalized, Masked and N3 corrected T1 image <- Sag IR-SPGR",Pre-processed,,NiFTI,No
+I345479,027_S_4964,AD,M,81.1,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Brain PET: Raw FDG",Pre-processed,,DCM,No
+I358249,027_S_4964,AD,M,81.0,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated SAG IR-SPGR,Pre-processed,,NiFTI,No
+I330785,135_S_4863,AD,M,70.2,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- BRAIN EMISSION 4i/16s  FDG",Pre-processed,,DCM,No
+I349252,135_S_4863,AD,M,70.3,ADNI2 Month 3 MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I312575,070_S_4719,AD,F,79.3,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- FORE-ITERATIVEFDG6X5MIN3DBASELINE",Pre-processed,,DCM,No
+I306756,070_S_4719,AD,F,79.2,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I268113,006_S_4192,AD,M,82.5,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI_FDG 6F 4i/16s ",Pre-processed,,DCM,No
+I260245,006_S_4192,AD,M,82.4,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I347846,033_S_5013,AD,F,68.5,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI ITERATIVE FDG",Pre-processed,,DCM,No
+I349886,033_S_5013,AD,F,68.4,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE_P2_NO ANGLE=,Pre-processed,,NiFTI,No
+I269504,094_S_4282,AD,M,89.8,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30MIN 3D FDG 4i/16s",Pre-processed,,DCM,No
+I263737,094_S_4282,AD,M,89.7,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated SAG IR-SPGR,Pre-processed,,NiFTI,No
+I256248,006_S_4153,AD,M,79.5,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNIGo_FDG 6F 4i/16s ",Pre-processed,,DCM,No
+I250637,006_S_4153,AD,M,79.4,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I355451,099_S_4994,AD,M,85.1,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET WB FDG",Pre-processed,,DCM,No
+I350327,099_S_4994,AD,M,85.0,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I350585,130_S_4971,AD,M,76.7,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI FDG Brain_30min dyn",Pre-processed,,DCM,No
+I362858,130_S_4971,AD,M,76.8,ADNI2 Month 3 MRI-New Pt,MRI,MT1; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I336290,011_S_4912,AD,F,69.3,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI2 FDG (AC)",Pre-processed,,DCM,No
+I327038,011_S_4912,AD,F,69.2,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE GRAPPA2,Pre-processed,,NiFTI,No
+I324531,032_S_4755,AD,M,71.8,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Brain PET: Raw FDG",Pre-processed,,DCM,No
+I314561,032_S_4755,AD,M,71.7,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I291628,007_S_4568,AD,F,70.8,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- TRANSAXIAL:BRAIN 3D:FDG:IR CTAC NF",Pre-processed,,DCM,No
+I298812,007_S_4568,AD,F,70.7,ADNI2 Screening MRI-New Pt,MRI,"Spatially Normalized, Masked and N3 corrected T1 image <- Sag IR-SPGR",Pre-processed,,NiFTI,No
+I306217,023_S_4501,AD,M,79.2,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET Brain FDG",Pre-processed,,DCM,No
+I315340,023_S_4501,AD,M,79.3,ADNI2 Month 3 MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I245838,016_S_4009,AD,M,90.5,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET-AC Volume (Corrected)  FDG",Pre-processed,,DCM,No
+I241397,016_S_4009,AD,M,90.4,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Sag IR-SPGR,Pre-processed,,NiFTI,No
+I287413,126_S_4494,AD,M,71.3,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI GO PRIMARY  FDG",Pre-processed,,DCM,No
+I282673,126_S_4494,AD,M,71.2,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated Sag IR-SPGR,Pre-processed,,NiFTI,No
+I370116,131_S_5138,AD,M,60.8,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI-2 RECON 1 FDG",Pre-processed,,DCM,No
+I376956,131_S_5138,AD,M,60.7,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE SENSE2,Pre-processed,,NiFTI,No
+I262311,098_S_4215,AD,M,81.8,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI_BRAIN_3D  FDG",Pre-processed,,DCM,No
+I258659,098_S_4215,AD,M,81.7,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated Sag IR-SPGR,Pre-processed,,NiFTI,No
+I306237,135_S_4676,AD,M,79.0,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- BRAIN EMISSION - Iter(Brain  FDG",Pre-processed,,DCM,No
+I300304,135_S_4676,AD,M,78.9,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE GRAPPA2,Pre-processed,,NiFTI,No
+I280736,114_S_4379,AD,F,88.1,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Brain PET: Raw FDG",Pre-processed,,DCM,No
+I281847,114_S_4379,AD,F,88.0,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I351303,051_S_4980,AD,M,87.5,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 3D BRAIN ADNI-2 ITERATIVE_FDG",Pre-processed,,DCM,No
+I349584,051_S_4980,AD,M,87.4,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE GRAPPA2,Pre-processed,,NiFTI,No
+I358752,009_S_5037,AD,M,67.6,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNIGO - FDG BRAIN STUDY",Pre-processed,,DCM,No
+I358356,009_S_5037,AD,M,67.5,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE GRAPPA2,Pre-processed,,NiFTI,No
+I317143,011_S_4845,AD,F,68.1,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- FDG (AC)",Pre-processed,,DCM,No
+I321249,011_S_4845,AD,F,68.0,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE GRAPPA2,Pre-processed,,NiFTI,No
+I334485,003_S_4892,AD,F,75.3,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI (AC)  FDG",Pre-processed,,DCM,No
+I327049,003_S_4892,AD,F,75.2,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated SAG IR-SPGR,Pre-processed,,NiFTI,No
+I321789,128_S_4774,AD,M,86.0,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Brain PET: Raw FDG",Pre-processed,,DCM,No
+I312865,128_S_4774,AD,M,85.9,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE GRAPPA2,Pre-processed,,NiFTI,No
+I353857,024_S_5054,AD,F,74.1,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min FDG 4i/16s ",Pre-processed,,DCM,No
+I353186,024_S_5054,AD,F,74.0,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I364764,033_S_5087,AD,F,64.8,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI ITERATIVE FDG",Pre-processed,,DCM,No
+I363279,033_S_5087,AD,F,64.7,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE_GRAPPA2,Pre-processed,,NiFTI,No
+I375757,037_S_5162,AD,M,69.5,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 6 fr FDG Brain",Pre-processed,,DCM,No
+I414490,037_S_5162,AD,M,69.4,ADNI2 Screening MRI-New Pt,MRI,MT1; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I349197,127_S_4992,AD,F,63.9,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30-60 min dynamic-3D - Iter( FDG",Pre-processed,,DCM,No
+I349547,127_S_4992,AD,F,63.8,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- Accelerated Sag IR-SPGR,Pre-processed,,NiFTI,No
+I246828,014_S_4039,AD,M,56.1,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Brain PET: Raw FDG",Pre-processed,,DCM,No
+I241346,014_S_4039,AD,M,56.0,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
+I257156,116_S_4195,AD,M,62.4,ADNI2 Baseline-New Pt,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI_3D_Brain_ITERATIVE  FDG",Pre-processed,,DCM,No
+I255413,116_S_4195,AD,M,62.3,ADNI2 Screening MRI-New Pt,MRI,MT1; GradWarp; N3m <- MPRAGE,Pre-processed,,NiFTI,No
