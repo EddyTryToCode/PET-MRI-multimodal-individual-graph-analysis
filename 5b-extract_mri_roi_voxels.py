@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract PET voxel values per ROI using the AAL atlas."""
+"""Extract MRI voxel values per ROI using the AAL atlas."""
 
 import os
 import pickle
@@ -8,13 +8,7 @@ import numpy as np
 import nibabel as nib
 import pandas as pd
 import yaml
-
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-
 from nilearn.image import resample_to_img
-from nilearn import plotting
 
 CONFIG_PATH = "configs/default.yaml"
 
@@ -45,29 +39,9 @@ def extract_roi_voxels(
     return roi_voxels
 
 
-def generate_parcellation_qc(
-    resampled_atlas: nib.Nifti1Image,
-    mri_path: str,
-    output_path: str,
-    title: str,
-) -> None:
-    display = plotting.plot_roi(
-        roi_img=resampled_atlas,
-        bg_img=mri_path,
-        display_mode="ortho",
-        alpha=0.5,
-        cmap="tab20",
-        title=title,
-        draw_cross=True,
-    )
-    display.savefig(output_path, dpi=150)
-    display.close()
-    plt.close("all")
-
-
 def main() -> None:
     cfg = load_config()
-    atlas_path = cfg["data"]["atlas_nii"]
+    atlas_img = nib.load(cfg["data"]["atlas_nii"])
     labels_df = pd.read_csv(cfg["data"]["atlas_labels"])
     roi_ids = labels_df["roi_id"].tolist()
     meta = pd.read_csv(cfg["data"]["metadata"])
@@ -75,54 +49,38 @@ def main() -> None:
     processed_dir = cfg["data"]["processed_dir"]
     min_voxels = int(cfg["roi_extraction"]["min_voxels"])
     filter_positive = bool(cfg["roi_extraction"]["filter_positive"])
-    qc_dir = os.path.join("qc", "parcellation_overlay")
-    os.makedirs(qc_dir, exist_ok=True)
-
-    if not os.path.isfile(atlas_path):
-        raise FileNotFoundError(f"Atlas not found: {atlas_path}")
-
-    atlas_img = nib.load(atlas_path)
 
     for _, row in meta.iterrows():
         sid = row["subject_id"]
-        pet_path = os.path.join(
-            processed_dir, sid, f"{sid}_PET_preprocessed.nii.gz"
-        )
         mri_path = os.path.join(
             processed_dir, sid, f"{sid}_MRI_preprocessed.nii.gz"
         )
         out_path = os.path.join(
-            processed_dir, sid, f"{sid}_PET_roi_voxels.pkl"
+            processed_dir, sid, f"{sid}_MRI_roi_voxels.pkl"
         )
-        qc_path = os.path.join(qc_dir, f"{sid}_atlas_qc.png")
 
         if os.path.exists(out_path):
             print(f"[SKIP] {sid} already exists")
-            continue
-        if not os.path.isfile(pet_path):
-            print(f"[SKIP] {sid} PET not found")
             continue
         if not os.path.isfile(mri_path):
             print(f"[SKIP] {sid} MRI not found")
             continue
 
-        pet_img = nib.load(pet_path)
-        resampled_atlas = resample_to_img(
-            atlas_img, pet_img, interpolation="nearest", copy=True
+        mri_img = nib.load(mri_path)
+        atlas_mri = resample_to_img(
+            atlas_img, mri_img, interpolation="nearest", copy=True
         )
 
-        atlas_data = resampled_atlas.get_fdata().astype(np.int32)
-        pet_data = pet_img.get_fdata().astype(np.float32)
+        mri_data = mri_img.get_fdata().astype(np.float32)
+        atlas_data = atlas_mri.get_fdata().astype(np.int32)
 
         roi_voxels = extract_roi_voxels(
-            pet_data, atlas_data, roi_ids, min_voxels, filter_positive
+            mri_data, atlas_data, roi_ids, min_voxels, filter_positive
         )
 
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
         with open(out_path, "wb") as f:
             pickle.dump(roi_voxels, f, protocol=pickle.HIGHEST_PROTOCOL)
-
-        generate_parcellation_qc(resampled_atlas, mri_path, qc_path, title=sid)
 
         n_valid = sum(1 for v in roi_voxels.values() if np.any(v))
         print(f"[OK] {sid} valid_rois={n_valid}/{len(roi_ids)}")

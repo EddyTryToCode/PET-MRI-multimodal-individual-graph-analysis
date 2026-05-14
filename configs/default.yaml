@@ -1,0 +1,41 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  atlas_nii: data/atlas/AAL3v1_1mm.nii.gz
+  atlas_labels: data/atlas/AAL3_labels.csv
+  metadata: data/metadata.csv
+  graph_metrics_csv: data/graph_metrics.csv
+
+restructure:
+  num_workers: 4
+
+preprocessing:
+  pet_normalize: mean_brain
+  clip_percentile: [0.5, 99.5]
+
+roi_extraction:
+  min_voxels: 10
+  filter_positive: true
+
+graph_pet:
+  method: wasserstein
+  sigma: auto
+
+graph_mri:
+  method: jensenshannon
+  bins: 64
+  epsilon: 1.0e-8
+
+fusion:
+  alpha: 0.5
+
+graph_metrics:
+  threshold_percentile: 70
+
+classification:
+  test_size: 0.15
+  n_folds: 5
+  seed: 42
+  alpha_search: [0.3, 0.5, 0.7]
+  classifiers: [svm, xgboost]
+  feature_set: all

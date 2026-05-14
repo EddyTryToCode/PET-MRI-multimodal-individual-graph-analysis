@@ -1,26 +1,56 @@
+#!/usr/bin/env python3
+"""Download AAL3 atlas via nilearn."""
+
 import os
+import shutil
+
+import numpy as np
+import nibabel as nib
+import pandas as pd
+import yaml
 from nilearn import datasets
 
-# Tạo thư mục chứa Atlas
-os.makedirs('./Atlas', exist_ok=True)
+CONFIG_PATH = "configs/default.yaml"
 
-print("Đang kết nối đến kho dữ liệu thần kinh học để tải Schaefer Atlas...")
 
-# Tải Schaefer Atlas (Bản 100 vùng - 100 Parcellations)
-# Hệ tọa độ: MNI152 (Chuẩn quốc tế), độ phân giải 2mm
-schaefer = datasets.fetch_atlas_schaefer_2018(
-    n_rois=100, 
-    yeo_networks=7, 
-    resolution_mm=2, 
-    data_dir='./Atlas'
-)
+def load_config(path: str = CONFIG_PATH) -> dict:
+    if not os.path.isfile(path):
+        raise FileNotFoundError(f"Config not found: {path}")
+    with open(path, "r") as f:
+        return yaml.safe_load(f)
 
-# Đường dẫn file NIfTI sau khi tải về
-atlas_path = schaefer.maps
-print(f"✅ Đã tải thành công!")
-print(f"File Atlas NIfTI của bạn đang nằm ở: {atlas_path}")
 
-# In ra thử tên của vài vùng não
-print("\nTên của 5 vùng não đầu tiên:")
-for i in range(5):
-    print(f"Vùng {i+1}: {schaefer.labels[i].decode('utf-8')}")
+def main() -> None:
+    cfg = load_config()
+    os.makedirs("data/atlas", exist_ok=True)
+
+    out_nii = cfg["data"]["atlas_nii"]
+    out_csv = cfg["data"]["atlas_labels"]
+
+    if os.path.exists(out_nii) and os.path.exists(out_csv):
+        print("AAL3 atlas already downloaded")
+        return
+
+    print("Downloading AAL atlas via nilearn")
+    aal = datasets.fetch_atlas_aal(version="SPM12")
+
+    shutil.copy(aal.maps, out_nii)
+
+    labels_df = pd.DataFrame(
+        {
+            "roi_id": [int(i) for i in aal.indices],
+            "roi_name": aal.labels,
+        }
+    )
+    labels_df.to_csv(out_csv, index=False)
+
+    img = nib.load(out_nii)
+    unique_ids = np.unique(img.get_fdata().astype(int))
+    unique_ids = unique_ids[unique_ids > 0]
+    print(f"AAL3 atlas: {img.shape}, {len(unique_ids)} ROIs")
+    print(f"Saved: {out_nii}")
+    print(f"Labels: {out_csv}")
+
+
+if __name__ == "__main__":
+    main()
