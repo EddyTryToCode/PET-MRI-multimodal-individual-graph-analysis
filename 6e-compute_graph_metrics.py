@@ -67,10 +67,24 @@ def main() -> None:
 
     processed_dir = cfg["data"]["processed_dir"]
     thr = float(cfg["graph_metrics"]["threshold_percentile"])
+    out_csv = cfg["data"]["graph_metrics_csv"]
+
+    # Load already-computed rows to support incremental / crash-safe execution
+    done_sids = set()
     rows = []
+    if os.path.isfile(out_csv):
+        existing = pd.read_csv(out_csv)
+        rows = existing.to_dict("records")
+        done_sids = set(existing["subject_id"].tolist())
+        print(f"[INFO] Resuming: {len(done_sids)} subjects already in {out_csv}")
 
     for _, row in meta.iterrows():
         sid = row["subject_id"]
+
+        if sid in done_sids:
+            print(f"[SKIP] {sid} already computed")
+            continue
+
         proc_dir = os.path.join(processed_dir, sid)
         paths = {
             "mri": os.path.join(proc_dir, f"{sid}_A_mri.npy"),
@@ -92,9 +106,12 @@ def main() -> None:
         rows.append(record)
         print(f"[OK] {sid}")
 
+        # Write incrementally after every subject to survive crashes
+        pd.DataFrame(rows).to_csv(out_csv, index=False)
+
     df = pd.DataFrame(rows)
-    df.to_csv(cfg["data"]["graph_metrics_csv"], index=False)
-    print(f"Saved: {cfg['data']['graph_metrics_csv']} shape={df.shape}")
+    df.to_csv(out_csv, index=False)
+    print(f"Saved: {out_csv} shape={df.shape}")
 
 
 if __name__ == "__main__":

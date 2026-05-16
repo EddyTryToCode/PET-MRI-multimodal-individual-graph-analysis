@@ -171,15 +171,14 @@ def build_feature_matrix(
 
         if use_graph_metrics:
             row = metrics_df.loc[sid]
-            base_metrics = []
-            for tag in ["mri", "pet"]:
+            # Read all precomputed metrics (mri, pet, fused) directly from CSV
+            # 6e already computed fused metrics with the correct threshold.
+            # Recalculating here would be inconsistent if alpha differs from 6d.
+            all_metrics = []
+            for tag in ["mri", "pet", "fused"]:
                 for name in METRIC_NAMES:
-                    base_metrics.append(float(row[f"{tag}_{name}"]))
-
-            A_fused = fuse_adjacency(cache["adj_mri"][sid], cache["adj_pet"][sid], alpha)
-            fused_metrics = graph_metrics(A_fused, threshold_percentile)
-            fused_vec = [fused_metrics[name] for name in METRIC_NAMES]
-            parts.append(np.array(base_metrics + fused_vec, dtype=np.float32))
+                    all_metrics.append(float(row[f"{tag}_{name}"]))
+            parts.append(np.array(all_metrics, dtype=np.float32))
 
         if use_node_stats:
             parts.append(cache["node_stats"][sid])

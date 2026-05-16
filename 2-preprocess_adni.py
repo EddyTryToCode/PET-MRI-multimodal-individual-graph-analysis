@@ -114,15 +114,38 @@ def step2_skull_strip(
     if result.returncode != 0:
         raise RuntimeError(f"HD-BET failed with exit code {result.returncode}")
 
-    brain_candidates = glob.glob(os.path.join(tmp_dir, "*_bet.nii.gz"))
+    # Locate HD-BET outputs: expected names are mri_brain.nii.gz + mri_brain_mask.nii.gz
+    # We explicitly look for each to avoid any ambiguity.
+    all_nii = glob.glob(os.path.join(tmp_dir, "*.nii.gz"))
+
+    # Separate mask files from brain image files
+    mask_candidates = [f for f in all_nii if "mask" in os.path.basename(f).lower()]
+    brain_candidates = [
+        f for f in all_nii
+        if "mask" not in os.path.basename(f).lower()
+        and os.path.basename(f) != "mri_n4.nii.gz"
+    ]
+
     if not brain_candidates:
         raise FileNotFoundError(
-            f"HD-BET output not found in {tmp_dir}. Files: {os.listdir(tmp_dir)}"
+            f"HD-BET brain output not found in {tmp_dir}. Files: {os.listdir(tmp_dir)}"
         )
 
+    # Sort by size as extra safety: brain image > binary mask in bytes
+    brain_candidates.sort(key=lambda x: os.path.getsize(x), reverse=True)
     mri_brain = ants.image_read(brain_candidates[0])
 
-    mask_array = (mri_brain.numpy() > 0).astype(np.float32)
+    # Prefer the HD-BET neural-network mask over intensity thresholding.
+    # HD-BET mask is binary {0,1} and correctly handles dark GM voxels near zero.
+    if mask_candidates:
+        mask_candidates.sort(key=lambda x: os.path.getsize(x))
+        mask_img = ants.image_read(mask_candidates[0])
+        mask_array = (mask_img.numpy() > 0).astype(np.float32)
+    else:
+        # Fallback: derive from brain image (less accurate, but safe)
+        print("[WARN] HD-BET mask file not found, falling back to intensity threshold")
+        mask_array = (mri_brain.numpy() > 0).astype(np.float32)
+
     mri_mask = mri_brain.new_image_like(mask_array)
 
     print(f"Step 2 done ({elapsed(t0)})")
@@ -227,6 +250,15 @@ def main() -> None:
         pet_path = os.path.join(sub_dir, f"{sub_label}_PET.nii.gz")
 
         print(f"[{idx}/{total}] Processing {sub_label}")
+
+        out_dir = processed_dir / sub_label
+        mri_out = out_dir / f"{sub_label}_MRI_preprocessed.nii.gz"
+        pet_out = out_dir / f"{sub_label}_PET_preprocessed.nii.gz"
+
+        if mri_out.exists() and pet_out.exists():
+            print(f"SKIP {sub_label} (already processed)")
+            success += 1
+            continue
 
         if not os.path.isfile(mri_path):
             print(f"SKIP MRI not found: {mri_path}")

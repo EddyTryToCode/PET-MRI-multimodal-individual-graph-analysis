@@ -23,9 +23,9 @@ def load_config(path: str = CONFIG_PATH) -> dict:
         return yaml.safe_load(f)
 
 
-def compute_histogram(vals: np.ndarray, bins: int, epsilon: float) -> np.ndarray:
-    h, _ = np.histogram(vals, bins=bins, density=False)
-    h = h.astype(np.float32) + epsilon
+def compute_histogram(vals: np.ndarray, bins: int, epsilon: float, val_range: tuple) -> np.ndarray:
+    h, _ = np.histogram(vals, bins=bins, range=val_range, density=False)
+    h = h.astype(np.float64) + epsilon
     return h / h.sum()
 
 
@@ -36,16 +36,47 @@ def build_mri_adjacency(
     epsilon: float,
 ) -> np.ndarray:
     n = len(roi_ids)
+    
+    # Compute global range for aligned bins
+    valid_vals = [v for v in roi_voxels.values() if len(v) > 0]
+    if not valid_vals:
+        return np.zeros((n, n), dtype=np.float32)
+        
+    all_vals = np.concatenate(valid_vals)
+    g_min = float(all_vals.min())
+    g_max = float(all_vals.max())
+    if g_min == g_max:
+        print(
+            f"[WARN] build_mri_adjacency: all voxel values are constant ({g_min:.4f}). "
+            "This usually means MRI was saved as a binary mask instead of a float image. "
+            "Check 2-preprocess_adni.py output. Adjacency matrix will be uninformative."
+        )
+        g_min -= 0.5
+        g_max += 0.5
+        
+    val_range = (g_min, g_max)
+
     histograms = {}
     for rid in roi_ids:
-        histograms[rid] = compute_histogram(roi_voxels[rid], bins, epsilon)
+        # Fallback for empty ROIs
+        vals = roi_voxels[rid]
+        if len(vals) == 0:
+            vals = np.array([g_min], dtype=np.float32) 
+        histograms[rid] = compute_histogram(vals, bins, epsilon, val_range)
 
     A = np.zeros((n, n), dtype=np.float32)
     for a, rid_i in enumerate(roi_ids):
         A[a, a] = 1.0
         for b in range(a + 1, n):
             rid_j = roi_ids[b]
-            d = float(jensenshannon(histograms[rid_i], histograms[rid_j]))
+            
+            p = histograms[rid_i]
+            q = histograms[rid_j]
+            
+            # Scipy jensenshannon handles standard JS, but we ensure positive inputs
+            d = float(jensenshannon(p, q))
+            if np.isnan(d): d = 0.0 # Safety fallback
+                
             s = 1.0 - min(d, 1.0)
             A[a, b] = s
             A[b, a] = s

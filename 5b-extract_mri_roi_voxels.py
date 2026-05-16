@@ -25,14 +25,18 @@ def extract_roi_voxels(
     atlas_data: np.ndarray,
     roi_ids: list,
     min_voxels: int,
-    filter_positive: bool,
 ) -> dict:
+    """
+    Extract voxel values per ROI for MRI T1 images.
+    NOTE: Unlike PET, MRI intensity is NOT filtered to > 0 because T1 signal
+    can legitimately be near zero (dark GM/WM regions) after bias correction.
+    We only discard non-finite values (NaN/Inf).
+    """
     roi_voxels = {}
     for rid in roi_ids:
         vals = img_data[atlas_data == rid].astype(np.float32)
         vals = vals[np.isfinite(vals)]
-        if filter_positive:
-            vals = vals[vals > 0]
+        # Keep all finite values — do NOT filter by > 0 for MRI
         if len(vals) < min_voxels:
             vals = np.zeros(min_voxels, dtype=np.float32)
         roi_voxels[rid] = vals
@@ -48,7 +52,7 @@ def main() -> None:
 
     processed_dir = cfg["data"]["processed_dir"]
     min_voxels = int(cfg["roi_extraction"]["min_voxels"])
-    filter_positive = bool(cfg["roi_extraction"]["filter_positive"])
+    # NOTE: filter_positive intentionally NOT used for MRI (it is only for PET)
 
     for _, row in meta.iterrows():
         sid = row["subject_id"]
@@ -75,7 +79,7 @@ def main() -> None:
         atlas_data = atlas_mri.get_fdata().astype(np.int32)
 
         roi_voxels = extract_roi_voxels(
-            mri_data, atlas_data, roi_ids, min_voxels, filter_positive
+            mri_data, atlas_data, roi_ids, min_voxels
         )
 
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
