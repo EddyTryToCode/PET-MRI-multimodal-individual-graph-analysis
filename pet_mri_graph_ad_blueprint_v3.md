@@ -323,10 +323,11 @@ if __name__ == "__main__":
 
 ### S5b — `5b-extract_mri_roi_voxels.py`
 
-**Logic:** Tái sử dụng toàn bộ logic từ `5-extract_roi_voxels.py`, chỉ thay:
+**Logic:** Tương tự `5-extract_roi_voxels.py`, nhưng có sự khác biệt quan trọng:
 - Input image: `*_MRI_preprocessed.nii.gz` thay vì `*_PET_preprocessed.nii.gz`
 - Atlas cần resample về **MRI space** (thay vì PET space)
 - Output: `sub-*_MRI_roi_voxels.pkl`
+- **KHÔNG áp dụng `filter_positive`** — MRI T1 có voxel hợp lệ gần 0 (dark GM/WM sau N4 correction), chỉ filter `> 0` cho PET (loại bỏ uptake âm artifact)
 
 ```python
 #!/usr/bin/env python3
@@ -339,10 +340,16 @@ from nilearn.image import resample_to_img
 import pandas as pd
 
 def extract_roi_voxels(img_data, atlas_data, roi_ids, min_voxels=10):
+    """
+    Extract voxel values per ROI for MRI T1 images.
+    NOTE: Unlike PET, MRI intensity is NOT filtered to > 0 because T1 signal
+    can legitimately be near zero (dark GM/WM regions) after bias correction.
+    We only discard non-finite values (NaN/Inf).
+    """
     result = {}
     for rid in roi_ids:
         vals = img_data[atlas_data == rid].copy().astype(np.float32)
-        vals = vals[np.isfinite(vals) & (vals > 0)]
+        vals = vals[np.isfinite(vals)]  # Chỉ lọc NaN/Inf, KHÔNG filter > 0
         result[rid] = vals if len(vals) >= min_voxels else np.zeros(min_voxels, dtype=np.float32)
     return result
 
@@ -351,6 +358,8 @@ def main(cfg):
     labels_df = pd.read_csv(cfg["data"]["atlas_labels"])  # cols: roi_id, roi_name
     roi_ids = labels_df["roi_id"].tolist()
     meta = pd.read_csv(cfg["data"]["metadata"])
+    min_voxels = cfg["roi_extraction"]["min_voxels"]
+    # NOTE: filter_positive intentionally NOT used for MRI (it is only for PET)
 
     for _, row in meta.iterrows():
         sid = row["subject_id"]
@@ -370,8 +379,7 @@ def main(cfg):
         mri_data = mri_img.get_fdata().astype(np.float32)
         atlas_data = atlas_mri.get_fdata().astype(np.int32)
 
-        roi_voxels = extract_roi_voxels(mri_data, atlas_data, roi_ids,
-                                         cfg["roi_extraction"]["min_voxels"])
+        roi_voxels = extract_roi_voxels(mri_data, atlas_data, roi_ids, min_voxels)
         with open(out_path, "wb") as f:
             pickle.dump(roi_voxels, f)
         n_valid = sum(1 for v in roi_voxels.values() if v.sum() > 0)
@@ -402,20 +410,24 @@ Edge:
 
 Diagonal = 1.
 
+**Lưu ý quan trọng:**
+- Histogram **phải dùng global bin range** (min/max trên toàn bộ voxel của mọi ROI) để các bin được đồng nhất (aligned) khi so sánh JSD.
+- Dùng `float64` cho histogram để tránh lỗi precision → NaN khi `scipy.jensenshannon` lấy `sqrt` của giá trị âm siêu nhỏ.
+- Nếu toàn bộ voxel là hằng số (dữ liệu lỗi), in warning vì ma trận sẽ không mang thông tin.
+
 ```python
 #!/usr/bin/env python3
 """6b-build_mri_adjacency.py — Build MRI individual graph via JSD similarity."""
 
 import os, pickle
 import numpy as np
-import nibabel as nib
 from scipy.spatial.distance import jensenshannon
 import matplotlib.pyplot as plt
 import pandas as pd
 
-def compute_histogram(vals, bins=64, epsilon=1e-8):
-    h, _ = np.histogram(vals, bins=bins, density=False)
-    h = h.astype(np.float32) + epsilon
+def compute_histogram(vals, bins=64, epsilon=1e-8, val_range=None):
+    h, _ = np.histogram(vals, bins=bins, range=val_range, density=False)
+    h = h.astype(np.float64) + epsilon  # float64 để tránh NaN từ precision errors
     return h / h.sum()
 
 def build_mri_adjacency(roi_voxels, roi_ids, bins=64, epsilon=1e-8):
@@ -424,17 +436,37 @@ def build_mri_adjacency(roi_voxels, roi_ids, bins=64, epsilon=1e-8):
     A_mri[i,j] = 1 - JSD(hist_i, hist_j) ∈ [0, 1]. Diagonal = 1.
     """
     n = len(roi_ids)
-    H = {rid: compute_histogram(roi_voxels[rid], bins, epsilon) for rid in roi_ids}
+
+    # Compute global range for aligned bins
+    valid_vals = [v for v in roi_voxels.values() if len(v) > 0]
+    if not valid_vals:
+        return np.zeros((n, n), dtype=np.float32)
+
+    all_vals = np.concatenate(valid_vals)
+    g_min, g_max = float(all_vals.min()), float(all_vals.max())
+    if g_min == g_max:
+        print(f"[WARN] All voxels constant ({g_min:.4f}). Check MRI preprocessing.")
+        g_min -= 0.5
+        g_max += 0.5
+    val_range = (g_min, g_max)
+
+    H = {}
+    for rid in roi_ids:
+        vals = roi_voxels[rid]
+        if len(vals) == 0:
+            vals = np.array([g_min], dtype=np.float32)
+        H[rid] = compute_histogram(vals, bins, epsilon, val_range)
+
     A = np.zeros((n, n), dtype=np.float32)
     for a, i in enumerate(roi_ids):
-        for b, j in enumerate(roi_ids):
-            if a == b:
-                A[a, b] = 1.0
-            elif b > a:
-                d = float(jensenshannon(H[i], H[j]))
-                s = 1.0 - min(d, 1.0)
-                A[a, b] = s
-                A[b, a] = s
+        A[a, a] = 1.0
+        for b in range(a + 1, n):
+            j = roi_ids[b]
+            d = float(jensenshannon(H[i], H[j]))
+            if np.isnan(d): d = 0.0  # Safety fallback
+            s = 1.0 - min(d, 1.0)
+            A[a, b] = s
+            A[b, a] = s
     return A
 
 def main(cfg):
@@ -651,10 +683,23 @@ def graph_metrics(A, threshold_percentile=70):
 def main(cfg):
     meta = pd.read_csv(cfg["data"]["metadata"])
     thr = cfg["graph_metrics"]["threshold_percentile"]
+    out_csv = cfg["data"]["graph_metrics_csv"]
+
+    # Incremental / crash-safe: load already-computed rows
+    done_sids = set()
     rows = []
+    if os.path.isfile(out_csv):
+        existing = pd.read_csv(out_csv)
+        rows = existing.to_dict("records")
+        done_sids = set(existing["subject_id"].tolist())
+        print(f"[INFO] Resuming: {len(done_sids)} subjects already in {out_csv}")
 
     for _, row in meta.iterrows():
         sid = row["subject_id"]
+        if sid in done_sids:
+            print(f"[SKIP] {sid} already computed")
+            continue
+
         proc_dir = os.path.join(cfg["data"]["processed_dir"], sid)
 
         record = {"subject_id": sid, "label": row["label"]}
@@ -669,9 +714,12 @@ def main(cfg):
         rows.append(record)
         print(f"[OK] {sid}")
 
+        # Write incrementally after every subject to survive crashes
+        pd.DataFrame(rows).to_csv(out_csv, index=False)
+
     df = pd.DataFrame(rows)
-    df.to_csv(cfg["data"]["graph_metrics_csv"], index=False)
-    print(f"\nSaved: {cfg['data']['graph_metrics_csv']} | shape={df.shape}")
+    df.to_csv(out_csv, index=False)
+    print(f"\nSaved: {out_csv} | shape={df.shape}")
 
 if __name__ == "__main__":
     import yaml
@@ -1016,13 +1064,28 @@ python 8-evaluate.py
    - S5 đã resample atlas → PET space.
    - S5b phải resample atlas → MRI space riêng. Không dùng chung atlas đã resample từ S5.
 
-2. **PET normalize (S2b) phải làm TRƯỚC S5**, vì S5 extract từ `*_PET_preprocessed.nii.gz`.
+2. **S5b KHÔNG áp dụng `filter_positive` cho MRI:**
+   - `filter_positive: true` trong config chỉ dành cho PET (loại bỏ uptake âm artifact).
+   - MRI T1 có voxel intensity gần 0 hợp lệ (dark GM/WM sau N4 correction). Lọc `> 0` cho MRI sẽ loại mất voxel hợp lệ, gây ROI thiếu voxel → zero-padding → similarity = 1.0.
+
+3. **PET normalize (S2b) phải làm TRƯỚC S5**, vì S5 extract từ `*_PET_preprocessed.nii.gz`.
    Nếu S5 đã chạy rồi mà chưa normalize → cần chạy lại S5 sau khi sửa S2.
 
-3. **6-build_adjacency.py hiện tại đã đúng logic Wasserstein** → không sửa, chỉ verify output là `*_A_pet.npy`.
+4. **S2 phải load HD-BET mask file riêng (`*_mask.nii.gz`)**:
+   - KHÔNG dùng `mri_brain.numpy() > 0` để tạo mask — sẽ bỏ sót vùng GM tối.
+   - HD-BET mask là binary {0,1} đã được neural network predict, chính xác hơn threshold intensity.
 
-4. **Test split 15% trong S7 phải tách TRƯỚC vòng lặp CV** — xem code S7, dòng `train_test_split`.
+5. **S6b histogram phải dùng global bin range:**
+   - `np.histogram(vals, bins=64)` mặc định sẽ tính range cục bộ → bins không aligned giữa các ROI → JSD so sánh sai.
+   - Phải tính global `(min, max)` trên toàn bộ voxel rồi truyền `range=(g_min, g_max)` cho tất cả ROI.
+   - Dùng `float64` cho histogram để tránh precision errors → NaN.
 
-5. **Khi fit scaler/StandardScaler trong SVM pipeline**, `clone(clf)` đảm bảo không có data leak giữa các fold.
+6. **6-build_adjacency.py hiện tại đã đúng logic Wasserstein** → không sửa, chỉ verify output là `*_A_pet.npy`.
 
-6. **`graph_metrics_local.npy` trong `load_subject_features`:** Trong code S7, metrics đọc từ CSV tổng (`graph_metrics.csv`), không từ file per-subject. Agent cần nhất quán cách đọc này — xem hàm `build_feature_matrix`.
+7. **Test split 15% trong S7 phải tách TRƯỚC vòng lặp CV** — xem code S7, dòng `train_test_split`.
+
+8. **Khi fit scaler/StandardScaler trong SVM pipeline**, `clone(clf)` đảm bảo không có data leak giữa các fold.
+
+9. **S7 đọc graph metrics (bao gồm fused) từ CSV `graph_metrics.csv`**, không tính lại tại runtime. Điều này đảm bảo nhất quán với giá trị đã tính ở S6e (cùng threshold).
+
+10. **S6e ghi CSV incremental** để crash-safe. Nếu crash giữa chừng, kết quả đã tính không bị mất.
