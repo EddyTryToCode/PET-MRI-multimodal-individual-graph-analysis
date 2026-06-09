@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Extract MRI voxel values per ROI using the AAL atlas."""
+"""Extract MRI voxel values per ROI using the AAL atlas.
+
+Same spatial-registration fix as step 5: the atlas is warped from MNI
+space into each subject's native MRI space via ANTs before ROI extraction.
+If step 5 has already been run, the cached warped atlas is reused
+instantly (no re-registration).
+"""
 
 import os
 import pickle
@@ -9,6 +15,8 @@ import nibabel as nib
 import pandas as pd
 import yaml
 from nilearn.image import resample_to_img
+
+from atlas_registration import warp_atlas_to_native
 
 CONFIG_PATH = "configs/default.yaml"
 
@@ -45,7 +53,7 @@ def extract_roi_voxels(
 
 def main() -> None:
     cfg = load_config()
-    atlas_img = nib.load(cfg["data"]["atlas_nii"])
+    atlas_path = cfg["data"]["atlas_nii"]
     labels_df = pd.read_csv(cfg["data"]["atlas_labels"])
     roi_ids = labels_df["roi_id"].tolist()
     meta = pd.read_csv(cfg["data"]["metadata"])
@@ -53,6 +61,10 @@ def main() -> None:
     processed_dir = cfg["data"]["processed_dir"]
     min_voxels = int(cfg["roi_extraction"]["min_voxels"])
     # NOTE: filter_positive intentionally NOT used for MRI (it is only for PET)
+
+    # Registration config (defaults to SyN if section absent)
+    reg_cfg = cfg.get("registration", {})
+    reg_type = reg_cfg.get("type", "SyN")
 
     for _, row in meta.iterrows():
         sid = row["subject_id"]
@@ -70,14 +82,36 @@ def main() -> None:
             print(f"[SKIP] {sid} MRI not found")
             continue
 
+        print(f"[RUN] {sid}")
+
+        # ---------------------------------------------------------------
+        # 1.  Warp atlas from MNI → subject native space (cached)
+        #     If step 5 already ran, this is an instant cache hit.
+        # ---------------------------------------------------------------
+        atlas_native_path = os.path.join(
+            processed_dir, sid, f"{sid}_atlas_native.nii.gz"
+        )
+        transform_dir = os.path.join(processed_dir, sid, "transforms")
+
+        warped_atlas_nib = warp_atlas_to_native(
+            mri_path, atlas_path, atlas_native_path, transform_dir,
+            reg_type=reg_type,
+        )
+
+        # ---------------------------------------------------------------
+        # 2.  Resample warped atlas to MRI voxel grid
+        # ---------------------------------------------------------------
         mri_img = nib.load(mri_path)
         atlas_mri = resample_to_img(
-            atlas_img, mri_img, interpolation="nearest", copy=True
+            warped_atlas_nib, mri_img, interpolation="nearest", copy=True
         )
 
         mri_data = mri_img.get_fdata().astype(np.float32)
         atlas_data = atlas_mri.get_fdata().astype(np.int32)
 
+        # ---------------------------------------------------------------
+        # 3.  Extract ROI voxels
+        # ---------------------------------------------------------------
         roi_voxels = extract_roi_voxels(
             mri_data, atlas_data, roi_ids, min_voxels
         )

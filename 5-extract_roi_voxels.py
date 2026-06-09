@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Extract PET voxel values per ROI using the AAL atlas."""
+"""Extract PET voxel values per ROI using the AAL atlas.
+
+The atlas lives in MNI standard space whereas the preprocessed PET images
+are in subject-native space (coregistered to MRI in step 2).  We therefore
+use ANTs SyN registration to warp the atlas into each subject's native
+space before extracting per-ROI voxel distributions.
+"""
 
 import os
 import pickle
@@ -15,6 +21,8 @@ import matplotlib.pyplot as plt
 
 from nilearn.image import resample_to_img
 from nilearn import plotting
+
+from atlas_registration import warp_atlas_to_native
 
 CONFIG_PATH = "configs/default.yaml"
 
@@ -75,13 +83,16 @@ def main() -> None:
     processed_dir = cfg["data"]["processed_dir"]
     min_voxels = int(cfg["roi_extraction"]["min_voxels"])
     filter_positive = bool(cfg["roi_extraction"]["filter_positive"])
+
+    # Registration config (defaults to SyN if section absent)
+    reg_cfg = cfg.get("registration", {})
+    reg_type = reg_cfg.get("type", "SyN")
+
     qc_dir = os.path.join("qc", "parcellation_overlay")
     os.makedirs(qc_dir, exist_ok=True)
 
     if not os.path.isfile(atlas_path):
         raise FileNotFoundError(f"Atlas not found: {atlas_path}")
-
-    atlas_img = nib.load(atlas_path)
 
     for _, row in meta.iterrows():
         sid = row["subject_id"]
@@ -106,14 +117,36 @@ def main() -> None:
             print(f"[SKIP] {sid} MRI not found")
             continue
 
+        print(f"[RUN] {sid}")
+
+        # ---------------------------------------------------------------
+        # 1.  Warp atlas from MNI → subject native space (cached)
+        # ---------------------------------------------------------------
+        atlas_native_path = os.path.join(
+            processed_dir, sid, f"{sid}_atlas_native.nii.gz"
+        )
+        transform_dir = os.path.join(processed_dir, sid, "transforms")
+
+        warped_atlas_nib = warp_atlas_to_native(
+            mri_path, atlas_path, atlas_native_path, transform_dir,
+            reg_type=reg_type,
+        )
+
+        # ---------------------------------------------------------------
+        # 2.  Resample warped atlas to PET voxel grid
+        #     (atlas is now spatially correct; this only adjusts the grid)
+        # ---------------------------------------------------------------
         pet_img = nib.load(pet_path)
         resampled_atlas = resample_to_img(
-            atlas_img, pet_img, interpolation="nearest", copy=True
+            warped_atlas_nib, pet_img, interpolation="nearest", copy=True
         )
 
         atlas_data = resampled_atlas.get_fdata().astype(np.int32)
         pet_data = pet_img.get_fdata().astype(np.float32)
 
+        # ---------------------------------------------------------------
+        # 3.  Extract ROI voxels
+        # ---------------------------------------------------------------
         roi_voxels = extract_roi_voxels(
             pet_data, atlas_data, roi_ids, min_voxels, filter_positive
         )
@@ -122,7 +155,10 @@ def main() -> None:
         with open(out_path, "wb") as f:
             pickle.dump(roi_voxels, f, protocol=pickle.HIGHEST_PROTOCOL)
 
-        generate_parcellation_qc(resampled_atlas, mri_path, qc_path, title=sid)
+        # ---------------------------------------------------------------
+        # 4.  QC overlay (use MRI-resolution warped atlas for cleaner vis)
+        # ---------------------------------------------------------------
+        generate_parcellation_qc(warped_atlas_nib, mri_path, qc_path, title=sid)
 
         n_valid = sum(1 for v in roi_voxels.values() if np.any(v))
         print(f"[OK] {sid} valid_rois={n_valid}/{len(roi_ids)}")

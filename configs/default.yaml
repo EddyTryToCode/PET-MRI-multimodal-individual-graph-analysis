@@ -17,6 +17,9 @@ roi_extraction:
   min_voxels: 10
   filter_positive: true
 
+registration:
+  type: SyN              # SyN (accurate, ~5-10min/subject) or Affine (fast, ~1min/subject)
+
 graph_pet:
   method: wasserstein
   sigma: auto
