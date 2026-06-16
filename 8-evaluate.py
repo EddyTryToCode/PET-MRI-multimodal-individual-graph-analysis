@@ -193,7 +193,20 @@ def main() -> None:
     plot_group_adjacency(
         meta,
         cfg["data"]["processed_dir"],
-        "outputs/figures/group_adjacency.png",
+        "outputs/figures/group_adjacency_pet.png",
+        graph_tag="A_pet",
+    )
+    plot_group_adjacency(
+        meta,
+        cfg["data"]["processed_dir"],
+        "outputs/figures/group_adjacency_mri.png",
+        graph_tag="A_mri",
+    )
+    plot_group_adjacency(
+        meta,
+        cfg["data"]["processed_dir"],
+        "outputs/figures/group_adjacency_fused.png",
+        graph_tag="A_fused",
     )
 
     compute_roi_importance(
@@ -205,7 +218,9 @@ def main() -> None:
 
     print("Saved: outputs/figures/roc_curve.png")
     print("Saved: outputs/figures/confusion_matrix.png")
-    print("Saved: outputs/figures/group_adjacency.png")
+    print("Saved: outputs/figures/group_adjacency_pet.png")
+    print("Saved: outputs/figures/group_adjacency_mri.png")
+    print("Saved: outputs/figures/group_adjacency_fused.png")
     print("Saved: outputs/results/roi_importance.csv")
 
 
